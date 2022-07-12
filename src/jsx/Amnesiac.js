@@ -3,24 +3,58 @@ import Passage from '../components/Passage';
 
 export default [
 <p>
- <Passage id="A" visible={true}> BLURB</Passage>
-<Passage id="A" adds={["AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK"]} visible={true}>BLURB FINAL PARA</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> Welcome, friend.</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> What we have here is a slightly different digital text than what you might have found before.</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> Instead of series of pages for the reader to navigate non-linearly, AMNESIAC is a single continuous scroll that will transform itself as the reader traverses it. No further input is required than your continued motion, forward or back, and it will add and subtract parts of the story as you move along.</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> This will always occur off-screen, and such transfiguration may go completely unnoticed by even the canniest reader, except that they are soon presented by false starts, full stops, and dead ends in the text, obstacles akin to locked doors that require reversal and retrieval of the ‘key’ to proceed from what came before.</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> While linear, reading through AMNESIAC might be a little bit like riding a railway carriage on a ghost train – shunting along its track, guided by the switches fore and aft that shift it invisibly from line to line, track to track. But a story is not such a stable thing – and the mingling of past and present, fear and memory, anticipation and reflection – make for a murder-mystery that sticks.</Passage>
+<Passage id="A" visible={true}> One that's subjective, that is inconstant and changeable. The epitome of an unreliable narrative.</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> This, after all is the world we live in today – one of profound confusion, where there is uncertainty and isolation in everything you read. Where everything seems possible, and nothing is certain.</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> ...</Passage>
+<Passage id="A" visible={true}> I just hope it makes as much sense for you as it does to me.</Passage>
+<Passage id="A" adds={["AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK"]} visible={true}>...</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
+<Passage id="A" visible={true}>&nbsp;</Passage>
 </p>,
 
 <p>
- <Passage id="AB" subtracts="A" visible={false}> AMNESIAC</Passage>
-<Passage id="AB" visible={false}>AN ELECTRIC MYSTERY</Passage>
+<Passage id="AB" subtracts="A" visible={false}>AMNESIAC</Passage>
+<Passage id="AB" visible={false}>an electric mystery.</Passage>
+<Passage id="AB" visible={false}>&nbsp;</Passage>
+<Passage id="AB" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
 <Passage id="AJ" visible={false}>Tick.</Passage>
 <Passage id="AJ" visible={false}>A stock start.</Passage>
 <Passage id="JL" visible={false}>Tick.</Passage>
-<Passage id="JL" adds= {["KL", "KM", "KN"]} subtracts= {["AK", "BK", "CK", "DK", "EK", "FK", "GK", "HK", "IK", "JK"]} visible={false}>A stock start.</Passage>
+<Passage id="JL" adds={["KL", "KM", "KN"]} subtracts={["AK", "BK", "CK", "DK", "EK", "FK", "GK", "IK", "JK"]} visible={false}>A stock start.</Passage>
 </p>,
 
 <p>
-<Passage id="AF" visible={false}>A world starts to take its shape, dancing through fog. The same wobbly haze that paints oases onto the desert.</Passage>
+<Passage id="AF" visible={false}>A world starts to take its shape, dancing through fog. The same wobbly haze that paints oases on the desert.</Passage>
 </p>,
 
 <p>
@@ -28,7 +62,7 @@ export default [
 </p>,
 
 <p>
-<Passage id="AE" visible={false}>From the aqueous void, a sudden gravity starts to assert itself, and buoys up the dim image of a room, birthing solid surfaces and the texture of deliberate shapes. around me.</Passage>
+<Passage id="AE" visible={false}>From the aqueous void, a sudden gravity starts to assert itself, and buoys up the dim image of a room, birthing solid surfaces and the texture of deliberate shapes.</Passage>
 </p>,
 
 <p>
@@ -40,9 +74,9 @@ export default [
 </p>,
 
 <p>
- <Passage id="AJ" visible={false}>What was that? ... The tick of the second hand, punctuating silence. </Passage>
+<Passage id="AJ" visible={false}>What was that? ... The tick of the second hand, punctuating silence. </Passage>
 <Passage id="AJ" visible={false}>I was wearing a watch, apparently.</Passage>
-<Passage id="JK" visible={false}>Watch, ticking. </Passage>
+<Passage id="JL" visible={false}>Watch, ticking. </Passage>
 </p>,
 
 <p>
@@ -57,7 +91,7 @@ export default [
 
 <p>
 <Passage id="AB" visible={false}>I felt the back of my skull. No exit wound that I could find … Perhaps I had brain damage of some sort. I couldn't tell …</Passage>
- <Passage id="AB" visible={false}>But I was alive, apparently.</Passage>
+<Passage id="AB" visible={false}>But I was alive, apparently.</Passage>
 </p>,
 
 <p>
@@ -82,7 +116,7 @@ export default [
 
 <p>
 <Passage id="AH" visible={false}>Ten-ten. So it said.</Passage>
-<Passage id="HK" adds={["IJ", "IK"]} subtracts= {["HI", "H", "AI", "BI", "CI", "DI", "EI", "FI"]} visible={false}>Ten-ten. So it said.</Passage>
+<Passage id="HJ" adds={["IJ", "IJ1"]} subtracts={["HI", "H", "AI", "BI", "CI", "DI", "EI", "FI"]} visible={false}>Ten-ten. So it said.</Passage>
 </p>,
 
 <p>
@@ -93,7 +127,7 @@ export default [
 
 <p>
 <Passage id="AF" visible={false}>Not minding my nakedness, I heaved my-self to my feet.</Passage>
- <Passage id="AJ" visible={false}>And then I saw him.</Passage>
+<Passage id="AJ" visible={false}>And then I saw him.</Passage>
 </p>,
 
 <p>
@@ -105,7 +139,7 @@ export default [
 <Passage id="AB" visible={false}>I dared not touch him but just stood by him, looking down. He was dressed in a t-shirt and jeans, with bare feet and a bald head. It looked freshly shaved, even down to the eyebrows. His hands were at his sides, eyes closed, his clothing un-disturbed. </Passage>
 <Passage id="AF" visible={false}>He might've just now fallen asleep. </Passage>
 <Passage id="FK" visible={false}>Then again, perhaps he had been lying there for days.</Passage>
-<Passage id="FK" visible={false}>Then again, perhaps so had I. </Passage>
+<Passage id="FK" visible={false}>Then again, perhaps so had I.</Passage>
 </p>,
 
 <p>
@@ -117,8 +151,8 @@ export default [
 </p>,
 
 <p>
-<Passage id="BJ" visible={false}>I leant down and snatched the key from his neck, quickly, as if he might stir.</Passage>
-<Passage id="BJ" adds={["CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK"]} subtracts={["AC", "BC" ]} visible={false}>He didn't, natch. He was dead.</Passage>
+<Passage id="BD" visible={false}>I leant down and snatched the key from his neck, quickly, as if he might stir.</Passage>
+<Passage id="BD" adds={["CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK"]} subtracts={["AC", "BC" ]} visible={false}>He didn't, natch. He was dead.</Passage>
 </p>,
 
 <p>
@@ -239,6 +273,8 @@ export default [
 
 <p>
 <Passage id="AC" adds={["BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK"]} subtracts="AB" visible={false}>Where'd I seen a key, now?</Passage>
+<Passage id="AC" visible={false}>&nbsp;</Passage>
+<Passage id="AC" visible={false}> ... </Passage>
 </p>,
 
 <p>
@@ -269,7 +305,7 @@ export default [
 
 <p>
 <Passage id="CJ" visible={false}>There was a taste lingering in the fresh, new air. The morning was cold and clear, but I still sensed a faint trace, a wake on the surface of this outer space.</Passage>
-<Passage id="CF" visible={false}>The heavy scent of tedded grass and petrichor. And a tang, a bite at the roof of the mouth. I would have been a fool to miss it. The memory that a ‘grette leaves behind, wiping its boots as it leaves. I let my tongue touch itself ... Had I been smoking? How very unlike me, I thought … For all I knew.</Passage>
+<Passage id="CF" visible={false}>The heavy smell of tedded grass and petrichor. And a tang, a bite at the roof of the mouth. I would have been a fool to miss it. The memory that a ‘grette leaves behind, wiping its boots as it leaves. I let my tongue touch itself ... Had I been smoking? How very unlike me, I thought … For all I knew.</Passage>
 <Passage id="CJ" visible={false}>Ravelling the hair ‘round my finger, I stepped down onto a gravel path next to the thin lawn encircling the de-flowered earth ‘round the threshold. From the outside, the manse in which I had awoken displayed an inoffensive aspect – a polite dialogue of brick and tile with no discernible trace of the devastation within.</Passage>
 <Passage id="CJ" visible={false}>I turned to walk down a pavement lined with the cracked tarmac-map of invisible roots buried ‘neath the stone. It was unmistakeable, the accelerated bite. The dry tongue was getting drier. </Passage>
 </p>,
@@ -280,25 +316,25 @@ export default [
 <Passage id="CF" visible={false}>This bespectacled jogger was the first person I had seen, and I must admit that I felt a certain excitable curiosity. As he approached, I tried to offer him a smile, but he seemed to refuse my attempt at friend-ship, keeping his eyes firmly fixed in front of him, jaw clenched tight as if from some localised rictus …</Passage>
 </p>,
 
-  <p>
-  <Passage id="CJ" visible={false}>What city was I even in? Something told me it began with a C. C—-  Cr——?  It was far from the tip of my tongue. For all I knew, it could be the surface of the moon. I couldn't dare ask for fear of arousing suspicion, and these blank generic houses offered few clues. Whatever city it was, it had a river - but don't they all?- which I did glimpse momentarily through a roadside thicket, and  which this path seems to follow, vaguely, up towards some central font. </Passage>
-<Passage id="CJ" visible={false}>,Surely most people knew these things instinctively, or had friends to remind them. How bad had last night been? </Passage>
-  </p>,
+<p>
+<Passage id="CJ" visible={false}>What city was I even in? Something told me it began with a C. C—–– ? Cr——–?  It was far from the tip of my tongue. For all I knew, it could be the surface of the moon. I couldn't dare ask for fear of arousing suspicion, and these blank generic houses offered few clues. Whatever city it was, it had a river – but don't they all? – which I did glimpse momentarily through a roadside thicket, and  which this path seems to follow, vaguely, up towards some central font. </Passage>
+<Passage id="CJ" visible={false}>Surely most people knew these things instinctively, or had friends to remind them. How bad had last night been? </Passage>
+</p>,
 
 <p>
-<Passage id="CF" visible={false}>I resolved to try again as I spotted a woman in the near distance hustling along the pavement. She was wearing a clinical face-mask, with a bouquet cradled in her arms. I had some time to plan things properly as she approached, and as we came to pass, I exclaimed with a well-timed coo and enquired whether they might be for a sweet-heart, but she too only averted her eyes and even increased her gait ‘til she was past. Highly suspicious behaviour, I thought, but there you are …</Passage>
+<Passage id="CF" visible={false}>I resolved to try again as I spotted a woman in the near distance hustling along the pavement. She was wearing a clinical face-mask, with a bouquet cradled in her arms. I had some time to plan things properly as she approached, and as we came to pass, I exclaimed with a well-timed coo and enquired whether they might be for a sweet-heart, but she too only averted her eyes and even increased her gait 'til she was past. Highly suspicious behaviour, I thought, but there you are …</Passage>
 <Passage id="CF" visible={false}>Why the mask? And why such disgust? Was I such a stranger? …</Passage>
 <Passage id="CJ" visible={false}>All this was deeply confusing. I thought it must have been Sunday. It is frequently Sunday, after all …</Passage>
 <Passage id="CJ" visible={false}>Yes, it should be Sunday.</Passage>
 </p>,
 
 <p>
-<Passage id="CJ" visible={false}>Soon I felt the first streak of rain sprinkle my cheek. It could only have been early morn, but ‘neath these clouds street-lights were already beginning to prick them-selves into action ‘gainst this mock dusk. It couldn't have been late, and but already it was getting dark.</Passage>
+<Passage id="CJ" visible={false}>Soon I felt the first streak of rain sprinkle my cheek. It could only have been early morn, but ‘neath these clouds street-lights were already beginning to prick them-selves into action 'gainst this mock dusk. It couldn't have been late, and but already it was getting dark.</Passage>
 <Passage id="CF" visible={false}>Finally, I found the faintest smudge of ash on the corner of a curb at a wide T-junction. Glistening lines of cars were groaning past in thicker numbers the closer I plunged into the city grid and the air was becoming dense with exhaust fumes and numbed by the advancing rain, so in all this commotion it was gradually becoming harder and harder to pick up that same feral tang. I looked across both legs of the cross-roads, and then down the other pavement-branch. I walked on a distance, my head low, my eyes on the cracks and the dusty rims of phone-poles and street-lights …</Passage>
 </p>,
 
 <p>
-<Passage id="CF" visible={false}>I found another grace of ash on the lid of an old post-box. The street had seemed to have been rinsed clean over-night and only the wrecks of ancient phone-booths and gum-stamps marred the path up-town. Spots of ash were as clear as a clear day on the ground before me. Yes … that slab there, that railing, that spot on the window-sill of a funeral parlour. On a STOP sign, there and there ... </Passage>
+<Passage id="CF" visible={false}>I found another grace of ash on the lid of an old post-box. The street had seemed to have been rinsed clean over-night and only the wrecks of ancient phone-booths and gum-stamps marred the path up-town. Spots of ash were as clear as a clear day on the ground before me. Yes … that slab there, that railing, that spot on the window-sill of a funeral parlour. On a STOP sign, here and there ... </Passage>
 <Passage id="CF" visible={false}>Ginger-bread crumbs, to guide me further into the woods …</Passage>
 </p>,
 
@@ -307,24 +343,24 @@ export default [
 </p>,
 
 <p>
-<Passage id="CF" visible={false}>Curses. Foiled again. </Passage>
+<Passage id="CD" visible={false}>Curses. Foiled again. </Passage>
+<Passage id="D" adds={["DD", "DD1", "DE", "DF", "DG", "DH", "DI", "DJ", "DK"]} subtracts={["CC", "AD", "BD"]} visible={false}>Curses. Foiled again.</Passage>
 <Passage id="CF" visible={false}>This was a spectacular stymie …</Passage>
 <Passage id="CF" visible={false}>Well ... No matter, I thought …</Passage>
 <Passage id="CF" visible={false}>The filter bore a kiss-blushed blood-rose blossom on its nether-tip.</Passage>
 </p>,
 
 <p>
-<Passage id="CF" visible={false}>I had to pause for thought here, for it seemed I had reached a dead end. But something within me told me that this was no way to end things … It ix the sensibility of the addict to always crave more, natch. No moderation, no measure of sense, no proportionality or logic to that need. I hopped through the shuffling lanes of traffic to reach the far side of the street, and searched the ground. …</Passage>
-<Passage id="CF" visible={false}>There – another grey spot dropped from a fresh light. </Passage>
+<Passage id="CF" visible={false}>I had to pause for thought here, for it seemed I had reached a dead end. But something within me told me that this was no way to end things … I hopped through the shuffling lanes of traffic to reach the far side of the street, and searched the ground. …</Passage>
+<Passage id="CF" visible={false}>There – another grey spot, dropped from a fresh light. </Passage>
 </p>,
 
 <p>
-<Passage id="CD" visible={false}>Hope rises from the ashes.</Passage>
-<Passage id="D" adds={["DD", "DE", "DF", "DG", "DH", "DI", "DJ", "DK"]} subtracts={["CC", "AD", "BD"]} visible={false}>Hope rises from the ashes.</Passage>
+<Passage id="CF" visible={false}>Hope rises from the ashes.</Passage>
 </p>,
 
 <p>
-<Passage id="CC" visible={false}>I felt the rain growing in gusto now, spattering down onto my head and shoulders.</Passage>
+<Passage id="CF" visible={false}>I felt the rain growing in gusto now, spattering down onto my head and shoulders.</Passage>
 <Passage id="CC" visible={false}>I kept sniffing out those dark ash-spots at my feet like a truffle-pig in mulch – a smudge on a dust-bin, a low lump on a wall ... On and on – but more and more often I was finding the ash dashed away by rain-drops or dissolving where it lay, and knew that I was on a fuse – that, in no time, there'd be no trail left to follow … I vaguely regretted not picking up that umbrella when I'd had the chance … But no matter.</Passage>
 </p>,
 
@@ -354,10 +390,12 @@ export default [
 
 <p>
 <Passage id="CC" visible={false}>Another dead end.</Passage>
+<Passage id="CC" visible={false}>&nbsp;</Passage>
+<Passage id="CC" visible={false}> ... </Passage>
 </p>,
 
 <p>
-<Passage id="C" adds="D" subtracts="CD" visible={false}>I turned at last, and made my way back the way I came.</Passage>
+<Passage id="CC" adds="D" subtracts="CD" visible={false}>I turned at last, and made my way back the way I came.</Passage>
 </p>,
 
 <p>
@@ -396,26 +434,30 @@ export default [
 <Passage id="DE" visible={false}>What had happened to me? … I needed witnesses. Raw data, known facts – urgently, or before I knew it I would be over-run by suppositions. I longed to find some buoy of certainty in this oceanic flux, needed some society, damn it, to establish some kind of vague consensus. </Passage>
 <Passage id="DE" visible={false}>Some-one I trusted to corroborate. Some-one to say my name …</Passage>
 <Passage id="DE" visible={false}>Up-town or down, then? The agony of choice.</Passage>
-<Passage id="F" adds={["FG", "FH", "FI", "FJ"]} subtracts={["EE", "AF", "BF", "CF", "DF", "EF"]} visible={false}>Up-town or down, then? The agony of choice.</Passage>
+<Passage id="F" visible={false}>&nbsp;</Passage>
+<Passage id="F" visible={false}>&nbsp;</Passage>
+<Passage id="F" adds={["FG", "FH", "FI", "FJ", "FF"]} subtracts={["EE", "AF", "BF", "CF", "DF", "EF", "E"]} visible={false}>Up-town or down, then? The agony of choice.</Passage>
+<Passage id="F" visible={false}>&nbsp;</Passage>
+<Passage id="F" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="DE" visible={false}>I was going down, down into the soles of my shoes as I trod the weary path up-town, the single hair still twined ‘tween my fingers, over-cast with thought-clouds …</Passage>
-<Passage id="DE" visible={false}>This street was steep. A street so steep it needed steps …</Passage>
-<Passage id="DE" visible={false}>No, the street was flat, in fact. I was only looking at it aslant …</Passage>
+<Passage id="DH" visible={false}>I was going down, down into the soles of my shoes as I trod the weary path up-town, the single hair still twined ‘tween my fingers, over-cast with thought-clouds …</Passage>
+<Passage id="DH" visible={false}>This street was steep. A street so steep it needed steps …</Passage>
+<Passage id="DH" visible={false}>No, the street was flat, in fact. I was only looking at it aslant …</Passage>
+</p>,
+
+<p>
+<Passage id="DE" visible={false}>A sign out-side a pub. Runny chalk on a board … A bar-boy in a chequered apron was writing  – </Passage>
+<Passage id="DJ" visible={false}>I'D RATHER HAVE A BOTTLE IN FRONT OF ME </Passage>
+<Passage id="DJ" visible={false}>THAN A FRONTAL LOBOTOMY </Passage>
+<Passage id="DE" visible={false}>His hand was shaking.</Passage>
+<Passage id="E" adds="EE" subtracts={["D", "DD", "DD2", "Di", "AE", "BE", "CE"]} visible={false}>His hand was shaking.</Passage>
 </p>,
 
 <p>
 <Passage id="DF" visible={false}>All along the street, a desperate and dedicated crew of objects were soaking in mad animation. Awnings sighed and drooled into the gutters. Umbrellas were flinging them-selves from the astonished grips of pedestrians and making low, tumbling bids for freedom. It almost seemed as if everything there was trying to come alive …</Passage>
 <Passage id="DF" visible={false}>An unopened soda can was trundling along next to a fire hydrant, minding its own business, when a coupe pulled up to the curb. As the can fell under its front tire, it detonated with a gun-like report, sending the pooch into a minor hysteria of yipping. The driver stepped out and lay a hand on her head to calm the bitch, and then looked up at the sky and scurried towards the nearest shelter as fast as possible. The rest of the citizens were all throwing forward their hoods and flipping their coat-tails, looking every which way but up, while every bundled object seemed bleeding with motion and energy, as if each one held its life in thaw.</Passage>
-</p>,
-
-<p>
-<Passage id="DF" visible={false}>A sign out-side a pub. Runny chalk on a board … A bar-boy in a chequered apron was writing  – </Passage>
-<Passage id="DF" visible={false}>I'D RATHER HAVE A BOTTLE IN FRONT OF ME </Passage>
-<Passage id="DF" visible={false}>THAN A FRONTAL LOBOTOMY </Passage>
-<Passage id="DE" visible={false}>His hand was shaking.</Passage>
-<Passage id="E" adds={["EE"]} subtracts={["D", "Di", "AE", "BE", "CE", "DE"]} visible={false}>His hand was shaking.</Passage>
 </p>,
 
 <p>
@@ -425,7 +467,7 @@ export default [
 
 <p>
 <Passage id="DD" visible={false}>After a considerable while, I happened to notice that the window out of which I'd been directing these sentiments was flanked on either side by a pair of large, candy-striped poles that were alternately twirling to the reveal the words BARBERS and PEPPY. Once I turned to see the interior, I saw that this was indeed the case – a couple of overly-presentable blokes were mincing ‘round in front of long mirrors, snipping a steady snow-fall of hair from the heads of two obliging men in bibs and those same surgical masks.</Passage>
- <Passage id="DD" visible={false}>This didn't harbour well. Still – any port, so they say. Worse places to wait out a storm …</Passage>
+<Passage id="DD" visible={false}>This didn't harbour well. Still – any port, so they say. Worse places to wait out a storm …</Passage>
 </p>,
 
 <p>
@@ -439,8 +481,22 @@ export default [
 </p>,
 
 <p>
-<Passage id="DD" visible={false}>What could I do? … I had no need for a hair-cut, just shelter. But I had no choice but to take the throne. She threw a robe over me, and I told her sheepishly to make me presentable. Trying to avoid my own gaze in the mirror, I readied my-self for the plunge. </Passage>
-<Passage id="DD" adds="Di1" visible={false}>I was hardly in the mood for a confrontation of this magnitude – but I was trapped now, pinned into place and forced to talk. But shit  – that was what words were for, thought I … I only hoped we spoke the same language.</Passage>
+<Passage id="DD1" visible={false}>What could I do? … I had no need for a hair-cut, just shelter. But I had no choice but to take the throne. She threw a robe over me, and I told her sheepishly to make me presentable. Trying to avoid my own gaze in the mirror, I readied my-self for the plunge. </Passage>
+<Passage id="DD1" adds={["Di1", "Di2"]} visible={false}>I was hardly in the mood for a confrontation of this magnitude – but I was trapped now, pinned into place and forced to talk. But shit  – that was what words were for, thought I … I only hoped we spoke the same language ...</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+<Passage id="DD1" visible={false}>&nbsp;</Passage>
+</p>,
+
+<p>
+<Passage id="Di" visible={false}>What could I do? … I had no need for a hair-cut, just shelter. But I had no choice but to take the throne. She threw a robe over me, and I told her sheepishly to make me presentable. Trying to avoid my own gaze in the mirror, I readied my-self for the plunge. </Passage>
+<Passage id="Di" visible={false}>I was hardly in the mood for a confrontation of this magnitude – but I was trapped now, pinned into place and forced to talk. But shit  – that was what words were for, thought I … I only hoped we spoke the same language ...</Passage>
+<Passage id="Di" visible={false}>&nbsp;</Passage>
+<Passage id="Di" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -449,256 +505,632 @@ export default [
 <Passage id="Di" visible={false}>–Well, it's a bit rainy now.</Passage>
 <Passage id="Di" visible={false}>–It is. </Passage>
 <Passage id="Di" visible={false}>–But looks like clearing up soon, though.</Passage>
-<Passage id="Di" visible={false}>,–You think? …</Passage>
+<Passage id="Di" visible={false}>–You think? …</Passage>
 <Passage id="Di" visible={false}>–Well, what do I know? …</Passage>
-<Passage id="Di" visible={false}>,–  …</Passage>
+<Passage id="Di" visible={false}>–  …</Passage>
 <Passage id="Di" visible={false}>–Any plans for today?</Passage>
-<Passage id="Di" visible={false}>,–Not especially. </Passage>
-<Passage id="Di" visible={false}>–Did you have a good weekend?</Passage>
+<Passage id="Di" visible={false}>–Not especially. </Passage>
+<Passage id="Di" visible={false}>–Good weekend, at least?</Passage>
 <Passage id="Di" visible={false}>–I don't remember. So I guess so.</Passage>
 <Passage id="Di" visible={false}>–Can you keep still?</Passage>
-<Passage id="Di" visible={false}>,–Apparently not. </Passage>
+<Passage id="Di" visible={false}>–Apparently not. </Passage>
 <Passage id="Di" visible={false}>–Well, you'll have to, I'm afraid.</Passage>
-<Passage id="Di" visible={false}>,–Afraid of what?</Passage>
+<Passage id="Di" visible={false}>–Afraid of what?</Passage>
 <Passage id="Di" visible={false}>–I'm sorry? …</Passage>
-<Passage id="Di" visible={false}>,–What for?</Passage>
+<Passage id="Di" visible={false}>–What for?</Passage>
 <Passage id="Di" visible={false}>–  … </Passage>
-<Passage id="Di" visible={false}>,–  …</Passage>
+<Passage id="Di" visible={false}>–  …</Passage>
 <Passage id="Di" visible={false}>–Where-abouts are you from, then?</Passage>
-<Passage id="Di" visible={false}>,–  … South Chelishamburg.</Passage>
+<Passage id="Di" visible={false}>–  … South Chelishamburg.</Passage>
 <Passage id="Di" visible={false}>–Oh, yeah?</Passage>
 <Passage id="Di" visible={false}>–Sure. Why not.</Passage>
 <Passage id="Di" visible={false}>–Where's that?</Passage>
-<Passage id="Di" visible={false}>,–Just near – North Chelishamburg. </Passage>
+<Passage id="Di" visible={false}>–Just near – North Chelishamburg. </Passage>
 <Passage id="Di" visible={false}>–Oh. And what do you do?</Passage>
-<Passage id="Di" visible={false}>,–I'm a catastrophist.</Passage>
+<Passage id="Di" visible={false}>–I'm a catastrophist.</Passage>
 <Passage id="Di" visible={false}>–Oh, what's that? </Passage>
-<Passage id="Di" visible={false}>,–I investigate disasters. </Passage>
+<Passage id="Di" visible={false}>–I investigate disasters. </Passage>
 <Passage id="Di" visible={false}>–Really? …</Passage>
-<Passage id="Di" visible={false}>,–Sure.</Passage>
+<Passage id="Di" visible={false}>–Sure.</Passage>
 <Passage id="Di" visible={false}>–Like, for insurance? …</Passage>
-<Passage id="Di" visible={false}>,–More like consolation.</Passage>
+<Passage id="Di" visible={false}>–More like consolation.</Passage>
 <Passage id="Di" visible={false}>–And your family live in, uh? …</Passage>
-<Passage id="Di" visible={false}>,–Chelsinhamburg?</Passage>
+<Passage id="Di" visible={false}>–Chelsinhamburg?</Passage>
 <Passage id="Di" visible={false}>–Yeah.</Passage>
-<Passage id="Di" visible={false}>,–Yeah. That they must.</Passage>
+<Passage id="Di" visible={false}>–Yeah. That they must.</Passage>
 <Passage id="Di" visible={false}>–Good folks? …</Passage>
-<Passage id="Di" visible={false}>,–The very best.</Passage>
+<Passage id="Di" visible={false}>–The very best.</Passage>
 <Passage id="Di" visible={false}>–D'you like it like this?</Passage>
-<Passage id="Di" visible={false}>,–It's looking wonderful.</Passage>
+<Passage id="Di" visible={false}>–It's looking wonderful.</Passage>
 <Passage id="Di" visible={false}>–Doesn't it look so you? …</Passage>
-<Passage id="Di" visible={false}>,–It's like looking in a mirror. </Passage>
+<Passage id="Di" visible={false}>–It's like looking in a mirror. </Passage>
 <Passage id="Di" visible={false}>–  …</Passage>
-<Passage id="Di" visible={false}>,–  …</Passage>
+<Passage id="Di" visible={false}>–  …</Passage>
+<Passage id="Di" visible={false}>–&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Di1" adds="Di2" subtracts={["DD", "AD", "BD", "CD", "AE", "BE", "CE", "DE", "AF", "BF", "CF", "DF", "AG", "BG", "CG", "DG", "AH", "BH", "CH", "DH", "AI", "BI", "CI", "DI", "AJ", "BJ", "CJ", "DJ", "AK", "BK", "CK", "DK"]} visible={false}>–Lovely day.</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>–Lovely day.</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
+<Passage id="Di1" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
 <Passage id="Di3" adds="Di4" subtracts="Di2" visible={false}>–Well, it's a bit rainy now.</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
+<Passage id="Di3" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
 <Passage id="Di5" adds="Di6" subtracts="Di4" visible={false}>–But looks like clearing up soon, though.</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
+<Passage id="Di5" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
 <Passage id="Di7" adds="Di8" subtracts="Di6" visible={false}>–Well, what do I know? …</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
+<Passage id="Di7" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
 <Passage id="Di9" adds="Di10" subtracts="Di8" visible={false}>–Any plans for today?</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
+<Passage id="Di9" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Di11" adds="Di12" subtracts="Di10" visible={false}>–Did you have a good weekend?</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" adds="Di12" subtracts="Di10" visible={false}>–Good weekend, at least?</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
+<Passage id="Di11" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
 <Passage id="Di13" adds="Di14" subtracts="Di12" visible={false}>–Can you keep still?</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
+<Passage id="Di13" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
 <Passage id="Di15" adds="Di16" subtracts="Di14" visible={false}>–Well, you'll have to, I'm afraid.</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
+<Passage id="Di15" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
 <Passage id="Di17" adds="Di18" subtracts="Di16" visible={false}>–I'm sorry? …</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
+<Passage id="Di17" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
 <Passage id="Di19" adds="Di20" subtracts="Di18" visible={false}>–   …</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
+<Passage id="Di19" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
 <Passage id="Di21" adds="Di22" subtracts="Di20" visible={false}>–Where-abouts are you from, then?</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
+<Passage id="Di21" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
 <Passage id="Di23" adds="Di24" subtracts="Di22" visible={false}>–Oh, yeah?</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
+<Passage id="Di23" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
 <Passage id="Di25" adds="Di26" subtracts="Di24" visible={false}>–Where's that?</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
+<Passage id="Di25" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
 <Passage id="Di27" adds="Di28" subtracts="Di26" visible={false}>–Oh. And what do you do?</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
+<Passage id="Di27" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
 <Passage id="Di29" adds="Di30" subtracts="Di28" visible={false}>–Oh, what's that? </Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
+<Passage id="Di29" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
 <Passage id="Di31" adds="Di32" subtracts="Di30" visible={false}>–Really? …</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
+<Passage id="Di31" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
 <Passage id="Di33" adds="Di34" subtracts="Di32" visible={false}>–Like, for insurance? …</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
+<Passage id="Di33" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
 <Passage id="Di35" adds="Di36" subtracts="Di34" visible={false}>–And your family live in, uh? …</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
+<Passage id="Di35" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
 <Passage id="Di37" adds="Di38" subtracts="Di36" visible={false}>–Yeah.</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
+<Passage id="Di37" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
 <Passage id="Di39" adds="Di40" subtracts="Di38" visible={false}>–Good folks? …</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
+<Passage id="Di39" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
 <Passage id="Di41" adds="Di42" subtracts="Di40" visible={false}>– … D'you like it like this?</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
+<Passage id="Di41" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Di43" adds="Di44" subtracts="Di42" visible={false}>Doesn't it look so you? …</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" adds="Di44" subtracts="Di42" visible={false}>–Doesn't it look so you? …</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
+<Passage id="Di43" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
 <Passage id="Di45" adds="Di46" subtracts="Di44" visible={false}>–  … </Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
+<Passage id="Di45" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Di2" adds="Di3" subtracts="Di1" visible={false}>–Is it? ... </Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
+<Passage id="Di2" adds="Di3" subtracts={["Di1", "DD", "DD1", "AD", "BD", "CD", "AE", "BE", "CE", "DE", "AF", "BF", "CF", "DF", "AG", "BG", "CG", "DG", "AH", "BH", "CH", "DH", "AI", "BI", "CI", "DI", "AJ", "BJ", "CJ", "DJ", "AK", "BK", "CK", "DK", "D"]} visible={false}>–Is it? ... </Passage>
+<Passage id="Di2" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
 <Passage id="Di4" adds="Di5" subtracts="Di3" visible={false}>–It is. </Passage>
+<Passage id="Di4" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
 <Passage id="Di6" adds="Di7" subtracts="Di5" visible={false}>–You think? …</Passage>
+<Passage id="Di6" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
 <Passage id="Di8" adds="Di9" subtracts="Di7" visible={false}>–  …</Passage>
+<Passage id="Di8" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
 <Passage id="Di10" adds="Di11" subtracts="Di9" visible={false}>–Not especially. </Passage>
+<Passage id="Di10" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
 <Passage id="Di12" adds="Di13" subtracts="Di11" visible={false}>–I don't remember. So I guess so.</Passage>
+<Passage id="Di12" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
 <Passage id="Di14" adds="Di15" subtracts="Di13" visible={false}>–Apparently not. </Passage>
+<Passage id="Di14" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
 <Passage id="Di16" adds="Di17" subtracts="Di15" visible={false}>–Afraid of what?</Passage>
+<Passage id="Di16" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
 <Passage id="Di18" adds="Di19" subtracts="Di17" visible={false}>–What for?</Passage>
+<Passage id="Di18" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
 <Passage id="Di20" adds="Di21" subtracts="Di19" visible={false}>–  …</Passage>
+<Passage id="Di20" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
 <Passage id="Di22" adds="Di23" subtracts="Di21" visible={false}>–  … South Chelishamburg.</Passage>
+<Passage id="Di22" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
 <Passage id="Di24" adds="Di25" subtracts="Di23" visible={false}>–Sure. Why not.</Passage>
+<Passage id="Di24" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
 <Passage id="Di26" adds="Di27" subtracts="Di25" visible={false}>–Just near – North Chelishamburg. </Passage>
+<Passage id="Di26" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
 <Passage id="Di28" adds="Di29" subtracts="Di27" visible={false}>–I'm a catastrophist. </Passage>
+<Passage id="Di28" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
 <Passage id="Di30" adds="Di31" subtracts="Di29" visible={false}>–I investigate disasters. </Passage>
+<Passage id="Di30" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
 <Passage id="Di32" adds="Di33" subtracts="Di31" visible={false}>–Sure.</Passage>
+<Passage id="Di32" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
 <Passage id="Di34" adds="Di35" subtracts="Di33" visible={false}>–More like consolation.</Passage>
+<Passage id="Di34" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
 <Passage id="Di36" adds="Di37" subtracts="Di35" visible={false}>–Chelsinhamburg?</Passage>
+<Passage id="Di36" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
 <Passage id="Di38" adds="Di39" subtracts="Di37" visible={false}>–Yeah. That they must. </Passage>
+<Passage id="Di38" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
 <Passage id="Di40" adds="Di41" subtracts="Di39" visible={false}>–The very best. </Passage>
+<Passage id="Di40" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
 <Passage id="Di42" adds="Di43" subtracts="Di41" visible={false}>–It's looking wonderful.</Passage>
+<Passage id="Di42" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
 <Passage id="Di44" adds="Di45" subtracts="Di43" visible={false}>–It's like looking in a mirror. </Passage>
+<Passage id="Di44" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Di46" adds={["Di", "DD", "AD", "BD", "CD", "AE", "BE", "CE", "DE", "AF", "BF", "CF", "DF", "AG", "BG", "CG", "DG", "AH", "BH", "CH", "DH", "AI", "BI", "CI", "DI", "AJ", "BJ", "CJ", "DJ", "AK", "BK", "CK", "DK"]} subtracts="Di45" visible={false}>–  …</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" adds="DD2" visible={false}>–  …</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
+<Passage id="Di46" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="DD" subtracts="Di46" visible={false}>What an interrogation. On and on it went, as if I were on the stand, with that barber-chair itch crawling across my nose, arms crossed, fixing my eyes determinedly upon the ceiling. What an ordeal. </Passage>
-<Passage id="DD" visible={false}>Christ knew what she wanted all this information for – tax returns possibly. I had no choice but to throw her for a loop like that, making up outrageous facts about my life and circumstances to stymie her inquisition. She'd seemed to believe me – but how could I tell what she really thought? There was no way of knowing whether she'd twigged the whole façade. Trust was an extortionate luxury, this much was clear. </Passage>
-<Passage id="DD" visible={false}>Just wished I'd had the confidence to just scarper once she'd finished. But the woman had scissors to my neck, and so when she finished with a decisive flourish, I exclaimed rapturously. I s'pose I'm just a push-over that way. Good manners cost nothing, I s'pose. They're complimentary.</Passage>
+<Passage id="DD2" visible={false}>What an interrogation. On and on it went, as if I were on the stand, with that barber-chair itch crawling across my nose, arms crossed, fixing my eyes determinedly upon the ceiling. What an ordeal. </Passage>
+<Passage id="DD2" visible={false}>Christ knew what she wanted all this information for – tax returns possibly. I had no choice but to throw her for a loop like that, making up outrageous facts about my life and circumstances to stymie her inquisition. She'd seemed to believe me – but how could I tell what she really thought? There was no way of knowing whether she'd twigged the whole façade. Trust was an extortionate luxury, this much was clear. </Passage>
+<Passage id="DD2" adds={["E", "Di", "DD", "AE", "BE", "CE", "AF", "BF", "CF", "DF", "AG", "BG", "CG", "DG", "AH", "BH", "CH", "DH", "AI", "BI", "CI", "DI", "AJ", "BJ", "CJ", "DJ", "AK", "BK", "CK", "DK"]} subtracts={["Di45","Di46"]} visible={false}>Just wished I'd had the confidence to just scarper once she'd finished. But the woman had scissors to my neck, and so when she finished with a decisive flourish, I exclaimed rapturously. I s'pose I'm just a push-over that way. Good manners cost nothing, I s'pose. They're complimentary.</Passage>
 </p>,
 
 <p>
-<Passage id="DD" visible={false}>She extended out a hand to me without further word, and I eyed it in trepidation. My greatest challenge yet – and, yet … I felt a strange, contrary urge for physical contact of any form. Un-crossing my arms, I threw caution to the wind and seized her, shaking the proffered hand a tad wildly, I must admit. I then dropped it with some force and leaned back triumphantly, trying to brazen it out as though I had just bested her with some new and better technique. She laughed, and said she needed compensation – and after another awkward pause, I realised I had no choice but to pony up the dough. After I'd drained my pockets, she returned my gaze with a new garnish of respect that perhaps hadn't been there before. I could see that she understood … If only we could share a single point of reference.</Passage>
+<Passage id="DD2" visible={false}>She extended out a hand to me without further word, and I eyed it in trepidation. My greatest challenge yet – and, yet … I felt a strange, contrary urge for physical contact of any form. Un-crossing my arms, I threw caution to the wind and seized her, shaking the proffered hand a tad wildly, I must admit. I then dropped it with some force and leaned back triumphantly, trying to brazen it out as though I had just bested her with some new and better technique. She laughed, and said she needed compensation – and after another awkward pause, I realised I had no choice but to pony up the dough. After I'd drained my pockets, she returned my gaze with a new garnish of respect that perhaps hadn't been there before. I could see that she understood … If only we could share a single point of reference.</Passage>
 </p>,
 
 <p>
-<Passage id="DD" visible={false}>While she'd been performing her dread task, my eagle-eyes had picked out a news-paper clipping that was pinned to the mirror. It was a feature ‘neath the picture of a blonde-curl lil' cherub in a tiara advertising some show put on by a neighbourhood arts studio. This gave me pause for thought. Once I was freed from my restraints, I asked my Grooms-Woman whether she could identify something for me, and unwound the hair I had kept ravelled ‘round my forefinger for her to examine. She shrugged, suddenly off-put and reticent after her attempt at deposition, but after I pressed the issue of the clipping she mentioned that she cut the dancers' hair at the uptown studio from time to time, and that yes, some of ‘em were dark – just like this one …</Passage>
+<Passage id="DD2" visible={false}>While she'd been performing her dread task, my eagle-eyes had picked out a news-paper clipping that was pinned to the mirror. It was a feature ‘neath the picture of a blonde-curl lil' cherub in a tiara advertising some show put on by a neighbourhood arts studio. This gave me pause for thought. Once I was freed from my restraints, I asked my Grooms-Woman whether she could identify something for me, and unwound the hair I had kept ravelled ‘round my forefinger for her to examine. She shrugged, suddenly off-put and reticent after her attempt at deposition, but after I pressed the issue of the clipping she mentioned that she cut the dancers' hair at the uptown studio from time to time, and that yes, some of ‘em were dark – just like this one …</Passage>
 </p>,
 
 <p>
-<Passage id="DD" visible={false}>This clipping-clue was much too compelling to ignore. Ten times out of ten, it would've been meaning-less, but there was no way I could risk missing this. </Passage>
-<Passage id="DD" visible={false}>Willingly now, I waved my Grooms-Woman a cheery-bye, and moved back out into the down-pour.</Passage>
+<Passage id="DD2" visible={false}>This clipping-clue was much too compelling to ignore. Ten times out of ten, it would've been meaning-less, but there was no way I could risk missing this. </Passage>
+<Passage id="DD2" visible={false}>Willingly now, I waved my Grooms-Woman a cheery-bye, and moved back out into the down-pour.</Passage>
 </p>,
 
 <p>
-<Passage id="DD" visible={false}>One thing was clear – no one here could ratify this abstract conjecture. And still so many questions grown more monstrous by speculation.</Passage>
-<Passage id="DD" visible={false}>Who was the bald man? Who had he been to me? Victim – or accomplice? </Passage>
-<Passage id="DD" adds="E" subtracts= {["AE", "BE", "CE", "DE"]} visible={false}>Clue-less, the poor fools. Time to retrace my steps once again.</Passage>
+<Passage id="DD2" visible={false}>One thing was clear – no one here could ratify this abstract conjecture. And still so many questions grown more monstrous by speculation.</Passage>
+<Passage id="DD2" visible={false}>Who was the bald man? Who had he been to me? Victim – or accomplice? </Passage>
+<Passage id="DD2" visible={false}>Clue-less, the poor fools. Time to retrace my steps once again.</Passage>
+<Passage id="DD2" visible={false}>...</Passage>
 </p>,
 
 <p>
@@ -734,6 +1166,8 @@ export default [
 <Passage id="EE" visible={false}>She asked if I didn't know her name already, and when I replied that I obviously didn't, she got extremely shirty and started asking what my angle was. I told her that I didn't mean to be obtuse and was only checking in on some-one for whom I was worried, and had natch come where I knew she was most likely to be. </Passage>
 <Passage id="EE" visible={false}>She asked if I was making an allegation. I replied that I was not, by nature, an alligator.</Passage>
 <Passage id="EE" adds="F" visible={false}>I'd best be on my way then, hadn't I? Yes, I s'posed I should.</Passage>
+<Passage id="EE" visible={false}>&nbsp;</Passage>
+<Passage id="EE" visible={false}>...</Passage>
 </p>,
 
 <p>
@@ -765,15 +1199,15 @@ export default [
 
 <p>
 <Passage id="FJ" visible={false}>It was when I was stripping down in the temporary dignity of the shared washroom that I saw the state of my-self, for the first time, properly, in the grimy sink-side mirror, the skin which had lain hidden ‘neath my garms now totally exposed …</Passage>
-<Passage id="FG" visible={false}>Ribs and arches pushed them-selves at the chafed skin like tent-poles. Scratches and claw-marks. Furious wheals in my flesh. I looked like a failed mutineer.</Passage>
-<Passage id="FG" visible={false}>I stuck out my tongue and inspected it – a slick, slack moistened flap …</Passage>
-<Passage id="FG" visible={false}>I tried a smile, but it ended up just looking like some sort of weird grimace. God knows how these expressions were supposed to look, but I wish some-one would've taught me how.</Passage>
+<Passage id="FI" visible={false}>Ribs and arches pushed them-selves at the chafed skin like tent-poles. Scratches and claw-marks. Furious wheals in my flesh. I looked like a failed mutineer.</Passage>
+<Passage id="FI" visible={false}>I stuck out my tongue and inspected it – a slick, slack moistened flap …</Passage>
+<Passage id="FI" visible={false}>I tried a smile, but it ended up just looking like some sort of weird grimace. God knows how these expressions were s'posed to look, but I wish some-one would've taught me how.</Passage>
 
 </p>,
 
 <p>
-<Passage id="FG" visible={false}>My skin was eroding away in sloughs from the damp, but as I was assessing the damage I caught sight of some more markings on my side. Not slashes or bite-marks like all the rest, not indents or muscle-creases. These were the faint, but still visible, marks of ink, faded like last week's henna …</Passage>
-<Passage id="FG" visible={false}>This was not some night-club stamp or cattle-brand – these were decisive pen-strokes …</Passage>
+<Passage id="FI" visible={false}>My skin was eroding away in sloughs from the damp, but as I was assessing the damage I caught sight of some more markings on my side. Not slashes or bite-marks like all the rest, not indents or muscle-creases. These were the faint, but still visible, marks of ink, faded like last week's henna …</Passage>
+<Passage id="FI" visible={false}>This was not some night-club stamp or cattle-brand – these were decisive pen-strokes …</Passage>
 <Passage id="FJ" visible={false}>Cursive words down my belly, all the way to the groin …</Passage>
 <Passage id="FJ" visible={false}>What was this then, some love-letter, some kiss-off good-bye-note? … Or some obscure invitation or a crucial instruction which I had over-looked? … The one word I could tell for sure, scrawled somewhere in the middle of the third line, was FUCK … </Passage>
 <Passage id="FJ" visible={false}>But I could just make out the rose-stamp of a mouth, lip-stick in pink ink after the final scribbled-cruciform signature – X X  … Marking my organs for harvest, perhaps.</Passage>
@@ -790,16 +1224,27 @@ export default [
 <Passage id="FJ" visible={false}>After a moment, I extracted the phone again, and turned it on.</Passage>
 <Passage id="FJ" visible={false}>LOCKED</Passage>
 <Passage id="FJ" visible={false}>_ _ _ _</Passage>
-<Passage id="F" visible={false}>I racked my mental abacus. </Passage>
-<Passage id="G" adds="GH" subtracts="FG" visible={false}>I racked my mental abacus again.</Passage>
-<Passage id="H" adds={["HI", "HK"]} subtracts={["G", "AH", "BH", "CH", "DH", "EH", "FH", "GH"]} visible={false}>I racked my mental abacus yet again.</Passage>
+<Passage id="FF" visible={false}>I racked my mental abacus. </Passage>
+<Passage id="G" visible={false}>&nbsp;</Passage>
+<Passage id="G" visible={false}>...</Passage>
+<Passage id="G" adds="GH" subtracts={["FG","F", "DG"]} visible={false}>I racked my mental abacus again.</Passage>
+<Passage id="H" visible={false}>&nbsp;</Passage>
+<Passage id="H" visible={false}>...</Passage>
+<Passage id="H" adds={["HI", "HK", "HJ", "HL"]} subtracts={["G", "AH", "BH", "CH", "DH", "EH", "FH", "GH"]} visible={false}>I racked my mental abacus yet again.</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
+<Passage id="FJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
 <Passage id="FG" visible={false}>1111</Passage>
 <Passage id="FG" visible={false}>…</Passage>
 <Passage id="FG" visible={false}>…</Passage>
-<Passage id="FG" adds="G" subtracts="F" visible={false}>INCORRECT</Passage>
+<Passage id="FG" adds="G" subtracts="FF" visible={false}>INCORRECT</Passage>
 </p>,
 
 <p>
@@ -815,12 +1260,15 @@ export default [
 <Passage id="HI" visible={false}>INCORRECT</Passage>
 <Passage id="HI" visible={false}>How discouraging. In this game of hangman, I was drawing a blank.</Passage>
 <Passage id="HI" visible={false}>Everything was still at stake. I had to think back, had to remember what I was missing …</Passage>
+<Passage id="HI" visible={false}>&nbsp;</Passage>
+<Passage id="HI" visible={false}>...</Passage>
 </p>,
 
 
 <p>
-<Passage id="IJ" visible={false}>The painted pipes were humming over-head.</Passage>
+<Passage id="IJ" subtracts="HK" visible={false}>The painted pipes were humming over-head.</Passage>
 <Passage id="IJ" visible={false}>I listened to the rain on the roof above my nose, trying my best to resist the thought.</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -830,6 +1278,7 @@ export default [
 <Passage id="IJ" visible={false}>Two dead eyes. Kiss-kiss, ex-sex … </Passage>
 <Passage id="IJ" visible={false}>Helixes. Zig-zag-zigged chomasomally …</Passage>
 <Passage id="IJ" visible={false}>Two strikes, out. </Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -841,11 +1290,13 @@ export default [
 <p>
 <Passage id="IJ" visible={false}>Now you see the obsessive streak fully on the wing. It was a bold idea .</Passage>
 <Passage id="IJ" visible={false}>Highly improbable. But who knew? Why not, not why.</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
 <Passage id="IJ" visible={false}>LOCKED.</Passage>
 <Passage id="IJ" visible={false}>_ _ _ _</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -854,10 +1305,12 @@ export default [
 
 <p>
 <Passage id="IJ" visible={false}> 2 0 _ _  .   No … I couldn't be sure of the year, exactly.</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
 <Passage id="IJ" visible={false}>X X X X … INCORRECT. Still couldn't quite get the hang of this game.</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -867,6 +1320,12 @@ export default [
 
 <p>
 <Passage id="IJ" visible={false}>Natch.</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
+<Passage id="IJ" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -884,7 +1343,7 @@ export default [
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>The entrance to the club was just a hole in the pavement down Garton Street, stairs down into a noisy lair. The size of the crowd huddled out-side told me it that was a big night, but only by sight, natch, as the chop and slash of music from below was making communication difficult already. The queue was monstrous, and of course I had little money to speak of, but the swarthy bouncer out front let me in when I told him I'd left my wallet in-side and made a big fuss about my admittance stamp washing off in the rain. I was regarded with some suspicion, but clearly not as any realistic threat. I'd left my dust-jacket back at the hostel to air out properly, and though I was wet, cold and probably looked a little rough ‘round the edges, sweet pity was perhaps flowing in my favour, and so after a terrific out-cry from the head of the queue, and thankful but un-apologetic noises from yours truly, I was finally let loose through the doors.</Passage>
+<Passage id="IJ" visible={false}>The entrance to the club was just a hole in the pavement, stairs down into a noisy lair. The size of the crowd huddled out-side told me it that was a big night, but only by sight, natch, as the chop and slash of music from below was making communication difficult already. The queue was monstrous, and of course I had little money to speak of, but the swarthy bouncer out front let me in when I told him I'd left my wallet in-side and made a big fuss about my admittance stamp washing off in the rain. I was regarded with some suspicion, but clearly not as any realistic threat. I'd left my dust-jacket back at the hostel to air out properly, and though I was wet, cold and probably looked a little rough ‘round the edges, sweet pity was perhaps flowing in my favour, and so after a terrific out-cry from the head of the queue, and thankful but un-apologetic noises from yours truly, I was finally let loose through the doors.</Passage>
 </p>,
 
 <p>
@@ -925,9 +1384,23 @@ export default [
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>I gave her a smoke from out my battered pack and she screwed it into the corner of her tight mouth. I toom one my-self. Neither of us had a light, but we scrobbed one off of a skinny, semi-tranquilised tweaker who acted as though he ‘spected it back … He shook his head when the Girl asked whether he had any water going, and told us the whole place was flowing.</Passage>
-<Passage id="IJ" visible={false}>The Girl asked whether I had water, and then when I said I didn't, she asked for gum. When I said no again, she went hard and silent as though considering desperate measures, and sucked furiously on her stub, moving her knee in a restive twitch. </Passage>
-<Passage id="IJ" adds="Ii1" visible={false}>I looked about me absently, then turned to her all at once and spontaneously came out with the first question that came to mind – </Passage>
+<Passage id="IJ1" visible={false}>I gave her a smoke from out my battered pack and she screwed it into the corner of her tight mouth. I toom one my-self. Neither of us had a light, but we scrobbed one off of a skinny, semi-tranquilised tweaker who acted as though he ‘spected it back … He shook his head when the Girl asked whether he had any water going, and told us the whole place was flowing.</Passage>
+<Passage id="IJ1" visible={false}>The Girl asked whether I had water, and then when I said I didn't, she asked for gum. When I said no again, she went hard and silent as though considering desperate measures, and sucked furiously on her stub, moving her knee in a restive twitch. </Passage>
+<Passage id="IJ1" adds={["Ii1", "Ii2"]} visible={false}>I looked about me absently, then turned to her all at once and spontaneously came out with the first question that came to mind – </Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+<Passage id="IJ1" visible={false}>&nbsp;</Passage>
+</p>,
+
+<p>
+<Passage id="Ii" visible={false}>I gave her a smoke from out my battered pack and she screwed it into the corner of her tight mouth. I toom one my-self. Neither of us had a light, but we scrobbed one off of a skinny, semi-tranquilised tweaker who acted as though he ‘spected it back … He shook his head when the Girl asked whether he had any water going, and told us the whole place was flowing.</Passage>
+<Passage id="Ii" visible={false}>The Girl asked whether I had water, and then when I said I didn't, she asked for gum. When I said no again, she went hard and silent as though considering desperate measures, and sucked furiously on her stub, moving her knee in a restive twitch. </Passage>
+<Passage id="Ii" visible={false}>I looked about me absently, then turned to her all at once and spontaneously came out with the first question that came to mind – </Passage>
+<Passage id="Ii" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
@@ -949,106 +1422,226 @@ export default [
 </p>,
 
 <p>
-<Passage id="Ii1" adds="Ii2" subtracts={["AJ", "BJ", "CJ", "DJ", "EJ", "FJ", "GJ", "HJ", "IJ"]} visible={false}>– You want an apple?...</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>– You want an apple?...</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
+<Passage id="Ii1" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii3" adds="Ii4" subtracts="II2"  visible={false}>– Couldn't tell you. </Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" adds="Ii4" subtracts="Ii2" visible={false}>– ...Couldn't tell you. </Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
+<Passage id="Ii3" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii5" adds="Ii6" subtracts="II4"  visible={false}>– … Where d'you get your hair cut?</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" adds="Ii6" subtracts="Ii4" visible={false}>– … Where d'you get your hair cut?</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
+<Passage id="Ii5" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii7" adds="Ii8" subtracts="II6"  visible={false}>– … D'you know where you were last night?</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" adds="Ii8" subtracts="Ii6" visible={false}>– … D'you know where you were last night?</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
+<Passage id="Ii7" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii9" adds="Ii10" subtracts="II8"  visible={false}>– What d'you mean?</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" adds="Ii10" subtracts="Ii8" visible={false}>– What d'you mean?</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
+<Passage id="Ii9" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii11" adds="Ii12" subtracts="II10"  visible={false}>– Couldn't tell you that either.</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" adds="Ii12" subtracts="Ii10" visible={false}>– ...Couldn't tell you that either.</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
+<Passage id="Ii11" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii13" adds="Ii14" subtracts="II12"  visible={false}>– On the one hand, yes. On the other hand … No.</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" adds="Ii14" subtracts="Ii12" visible={false}>– On the one hand, yes. On the other hand … No.</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
+<Passage id="Ii13" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii15" adds={["AJ", "BJ", "CJ", "DJ", "EJ", "FJ", "GJ", "HJ", "IJ"]} subtracts="II14"  visible={false}>– Ain't we all?...</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" adds="IJ2" subtracts="Ii14" visible={false}>– ...Ain't we all?...</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
+<Passage id="Ii15" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii2" adds="Ii3" subtracts="II1"  visible={false}>– No thanks, mate … What're you, some sort of rapist? …</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
+<Passage id="Ii2" adds="Ii3" subtracts={["AJ", "AK", "BJ", "BK", "CJ", "CK", "DJ", "DK", "EJ", "EK", "FJ", "FK", "GJ", "GK", "HJ", "HK", "IJ", "IJ1", "Ii1"]} visible={false}>– No thanks, mate … What're you, some sort of rapist? …</Passage>
+<Passage id="Ii2" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii4" adds="Ii5" subtracts="II3"  visible={false}>– I'm kidding.</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
+<Passage id="Ii4" adds="Ii5" subtracts="Ii3" visible={false}>– ...I'm kidding.</Passage>
+<Passage id="Ii4" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii6" adds="Ii7" subtracts="II1"  visible={false}>– Does it matter?</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
+<Passage id="Ii6" adds="Ii7" subtracts="Ii5" visible={false}>– Does it matter?</Passage>
+<Passage id="Ii6" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii8" adds="Ii9" subtracts="II7"  visible={false}>– Nowhere. </Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
+<Passage id="Ii8" adds="Ii9" subtracts="Ii7" visible={false}>– Nowhere. </Passage>
+<Passage id="Ii8" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii10" adds="Ii11" subtracts="II9"  visible={false}>– None of your business – that's what I mean … What time is it?</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
+<Passage id="Ii10" adds="Ii11" subtracts="Ii9" visible={false}>– None of your business – that's what I mean … What time is it?</Passage>
+<Passage id="Ii10" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii12" adds="Ii13" subtracts="II11"  visible={false}>– Aren't you wearing a watch?</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
+<Passage id="Ii12" adds="Ii13" subtracts="Ii11" visible={false}>– Aren't you wearing a watch?</Passage>
+<Passage id="Ii12" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="Ii14" adds="Ii15" subtracts="II13"  visible={false}>– Oh, I'm going to die …</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
+<Passage id="Ii14" adds="Ii15" subtracts="Ii13" visible={false}>– ...Oh, I'm going to die …</Passage>
+<Passage id="Ii14" visible={false}>&nbsp;</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" adds="Ii" subtracts="Ii15" visible={false}>And so on and on, in similar fashion.</Passage>
-<Passage id="IJ" visible={false}>A mad-woman, clearly. I saw the desperation in her eyes, that she had self-destructed long ago and was only performing that kind of low, soft dance that flames make with air. I saw straight through, natch. Smitten, the poor thing.</Passage>
-<Passage id="IJ" visible={false}>But some-thing in the lines of the girl's face told me that this was one thread worth pulling on. It was everything, really – the shape of her eyes, our proximity, every one of these collected circumstances … The features were too complete, too familiar, and packed in such outrageous density that nothing there-in could be blamed on sheer observance. She was a dead ringer, and the whole thing stank of kismet. Sweated it – and not just the harm-less breed of pimpish luck. Destiny-destiny, natch … The Big Bitch.</Passage>
+<Passage id="IJ2" visible={false}>And so on and on, in similar fashion.</Passage>
+<Passage id="IJ2" visible={false}>A mad-woman, clearly. I saw the desperation in her eyes, that she had self-destructed long ago and was only performing that kind of low, soft dance that flames make with air. I saw straight through, natch. Smitten, the poor thing.</Passage>
+<Passage id="IJ2" adds={["AJ", "AK", "BJ", "BK", "CJ", "CK", "DJ", "DK", "EJ", "EK", "FJ", "FK", "GJ", "GK", "HJ", "HK", "IJ", "IK", "Ii"]} subtracts="Ii15" visible={false}>But some-thing in the lines of the girl's face told me that this was one thread worth pulling on. It was everything, really – the shape of her eyes, our proximity, every one of these collected circumstances … The features were too complete, too familiar, and packed in such outrageous density that nothing there-in could be blamed on sheer observance. She was a dead ringer, and the whole thing stank of kismet. Sweated it – and not just the harm-less breed of pimpish luck. Destiny-destiny, natch … The Big Bitch.</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>After I'd fetched some water from a bar in the ante-tunnels and sat her down somewhere safe in the mausoleum, she seemed to calm down, gulping down the entire bottle ‘til it imploded with a sucked crunch of de-compression, and tossed it ‘neath a bench. I struggled to keep up as she struck off again with commendable purpose – her legs were almost gone, but she seemed possessed, her wide eyes full of that dead-star intensity for the floor. Her course was of another bend entirely, though – up and opposite, so that in no time we were stumbling out into the street and the startling cold and rain again, past the bouncer and through the glare and blare, the katzenjammer of the city street sounding like conch-echoes after the noise below.</Passage>
-<Passage id="IJ" visible={false}>The luminous dome in the smoking-area had protected us, but now the rain lashed down on us un-abated. I felt increasingly exposed and the Girl was shivering worse than ever – but still she was striding away fast enough that I could barely keep up, determined though I was.</Passage>
-<Passage id="IJ" visible={false}>As I trailed behind, I looked at the perfect, sharp shape of her shoulders. Crossed arms and clenched. I looked too at the crease-soft back ‘neath her pony-tail. Goose-dimpled legs. The tension showed in her neck while she stabbed the pavement irritably with her sneaker-heel at each stop-light. On her arm, below the tattoo, there were four horizontal lines. Deliberate marks, scab-red.</Passage>
+<Passage id="IJ2" visible={false}>After I'd fetched some water from a bar in the ante-tunnels and sat her down somewhere safe in the mausoleum, she seemed to calm down, gulping down the entire bottle ‘til it imploded with a sucked crunch of de-compression, and tossed it ‘neath a bench. I struggled to keep up as she struck off again with commendable purpose – her legs were almost gone, but she seemed possessed, her wide eyes full of that dead-star intensity for the floor. Her course was of another bend entirely, though – up and opposite, so that in no time we were stumbling out into the street and the startling cold and rain again, past the bouncer and through the glare and blare, the katzenjammer of the city street sounding like conch-echoes after the noise below.</Passage>
+<Passage id="IJ2" visible={false}>The luminous dome in the smoking-area had protected us, but now the rain lashed down on us un-abated. I felt increasingly exposed and the Girl was shivering worse than ever – but still she was striding away fast enough that I could barely keep up, determined though I was.</Passage>
+<Passage id="IJ2" visible={false}>As I trailed behind, I looked at the perfect, sharp shape of her shoulders. Crossed arms and clenched. I looked too at the crease-soft back ‘neath her pony-tail. Goose-dimpled legs. The tension showed in her neck while she stabbed the pavement irritably with her sneaker-heel at each stop-light. On her arm, below the tattoo, there were four horizontal lines. Deliberate marks, scab-red.</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>Where were we wandering? Through streets that could have been recognisable in adequate light. Those same stretches of asphalt and brick that constitute the various interchangeable pieces of suburbia.</Passage>
-<Passage id="IJ" visible={false}>We hung a right, and suddenly I was certain.</Passage>
-<Passage id="IJ" visible={false}>Too complete, too perfect …</Passage>
-<Passage id="IJ" visible={false}>The same house, without much doubt. Same stoop, same denuded grass patch and drained windows.</Passage>
+<Passage id="IJ2" visible={false}>Where were we wandering? Through streets that could have been recognisable in adequate light. Those same stretches of asphalt and brick that constitute the various interchangeable pieces of suburbia.</Passage>
+<Passage id="IJ2" visible={false}>We hung a right, and suddenly I was certain.</Passage>
+<Passage id="IJ2" visible={false}>Too complete, too perfect …</Passage>
+<Passage id="IJ2" visible={false}>The same house, without much doubt. Same stoop, same denuded grass patch and drained windows.</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>The Girl tried the door with her shoulder at first, but to my surprise, it didn't open. She stepped down from the door-way, looked ‘round for a moment, then stooped and tilted up a flower-pot by its base. A key was nestling under-neath.</Passage>
-<Passage id="IJ" visible={false}>As she thrust it into the lock-slot, she looked back at me and asked what I was standing there for. Those wide, wide eyes. There was a smile tugging at one corner of her battered bottom lip. Tightly pursed, with the tongue playing the crease from the in-side …</Passage>
-<Passage id="IJ" visible={false}>I saw with X-Ray clarity that right then her body was balanced on the tipping-point of a fulcrum. I saw the hormonal dump of serotonin and oxytocin, swelling, squirting glands, marinated in anticipation. All instinct, smitten with danger, horny for apocalypse …</Passage>
+<Passage id="IJ2" visible={false}>The Girl tried the door with her shoulder at first, but to my surprise, it didn't open. She stepped down from the door-way, looked ‘round for a moment, then stooped and tilted up a flower-pot by its base. A key was nestling under-neath.</Passage>
+<Passage id="IJ2" visible={false}>As she thrust it into the lock-slot, she looked back at me and asked what I was standing there for. Those wide, wide eyes. There was a smile tugging at one corner of her battered bottom lip. Tightly pursed, with the tongue playing the crease from the in-side …</Passage>
+<Passage id="IJ2" visible={false}>I saw with X-Ray clarity that right then her body was balanced on the tipping-point of a fulcrum. I saw the hormonal dump of serotonin and oxytocin, swelling, squirting glands, marinated in anticipation. All instinct, smitten with danger, horny for apocalypse …</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>My heart was a dance of fear. So, I sensed, was hers.</Passage>
+<Passage id="IJ2" visible={false}>My heart was a dance of fear. So, I sensed, was hers.</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>The door slid open and she disappeared into the inner dark. Moments passed, endlessly. Then a voice came from in-side …</Passage>
-<Passage id="IJ" visible={false}>She told me to hurry the fuck up.</Passage>
+<Passage id="IJ2" visible={false}>The door slid open and she disappeared into the inner dark. Moments passed, endlessly. Then a voice came from in-side …</Passage>
+<Passage id="IJ2" visible={false}>She told me to hurry the fuck up.</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>The Girl didn't turn the lights on in the hall-way, or on the narrow stairs up to the first-floor landing. </Passage>
-<Passage id="IJ" visible={false}>We moved with the same dumb courtesy from door to door. Mine, practised – hers, improvised, both careful not to disturb a thing.</Passage>
-<Passage id="IJ" visible={false}>I could tell there must be other people nearby, asleep, somewhere in that manse. I thought I heard the catch of wood-saw snoring even as we stood there. I felt an urge to leave, as soon as possible – but before I could move, the Girl moved again as if in tune with my own thoughts. I didn't say a word, but only turned to follow, making for the stairs. A pronounced creak ‘neath my feet halted me about a third of the way down, and I waited a moment to check that we hadn't raised an alarm, my heart spitting out beats. I still smelled dog. But there was nothing. No-one behind me either … I waited for a second, or perhaps a minute, then crept slowly up to the landing.</Passage>
-<Passage id="IJ" visible={false}>Framed photos on the wall, weirdly askew. Hand-me-downs and forget-me-nots. Smell of dog. The sly corner of a prayer-mat protruding from a door-way. Another shisha peers down from a pedestal atop a shelf. </Passage>
-<Passage id="IJ" visible={false}>Sepulchral silence. Afloat in close air, a sensation like opened fruit</Passage>
-<Passage id="IJ" visible={false}>Through one opened door, a bare, clear floor and a wide triptych-mirror pinned with pictures of ballerinas, and a pair of ribboned shoes in the corner, dirty and forlorn.</Passage>
+<Passage id="IJ2" visible={false}>The Girl didn't turn the lights on in the hall-way, or on the narrow stairs up to the first-floor landing. </Passage>
+<Passage id="IJ2" visible={false}>We moved with the same dumb courtesy from door to door. Mine, practised – hers, improvised, both careful not to disturb a thing.</Passage>
+<Passage id="IJ2" visible={false}>I could tell there must be other people nearby, asleep, somewhere in that manse. I thought I heard the catch of wood-saw snoring even as we stood there. I felt an urge to leave, as soon as possible – but before I could move, the Girl moved again as if in tune with my own thoughts. I didn't say a word, but only turned to follow, making for the stairs. A pronounced creak ‘neath my feet halted me about a third of the way down, and I waited a moment to check that we hadn't raised an alarm, my heart spitting out beats. I still smelled dog. But there was nothing. No-one behind me either … I waited for a second, or perhaps a minute, then crept slowly up to the landing.</Passage>
+<Passage id="IJ2" visible={false}>Framed photos on the wall, weirdly askew. Hand-me-downs and forget-me-nots. Smell of dog. The sly corner of a prayer-mat protruding from a door-way. Another shisha peers down from a pedestal atop a shelf. </Passage>
+<Passage id="IJ2" visible={false}>Sepulchral silence. Afloat in close air, a sensation like opened fruit</Passage>
+<Passage id="IJ2" visible={false}>Through one opened door, a bare, clear floor and a wide triptych-mirror pinned with pictures of ballerinas, and a pair of ribboned shoes in the corner, dirty and forlorn.</Passage>
 </p>,
 
 <p>
@@ -1057,20 +1650,20 @@ export default [
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>I was studying a school picture at the top of the stairs when I suddenly sensed far-off motion somewhere in the manse, and my stomach lurched at the thought that we might at last have disturbed some slumbering entity in one of the other rooms. Then I realised that, without my noticing, the Girl had slipped me again, and was now two or three rooms ahead. It was her making this slight commotion – this sound of sliding covers … Hushed haste. The suspended tension, and the bra-clasp release. And, like that, it snapped.</Passage>
+<Passage id="IJ2" visible={false}>I was studying a school picture at the top of the stairs when I suddenly sensed far-off motion somewhere in the manse, and my stomach lurched at the thought that we might at last have disturbed some slumbering entity in one of the other rooms. Then I realised that, without my noticing, the Girl had slipped me again, and was now two or three rooms ahead. It was her making this slight commotion – this sound of sliding covers … Hushed haste. The suspended tension, and the bra-clasp release. And, like that, it snapped.</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>Orange light was spilling into the nursery-room in slats from the street-lamps out-side. The Girl was on her knees beside a tiny crib, arms crossed on the rail over an un-covered form, still sleeping …</Passage>
+<Passage id="IJ2" visible={false}>Orange light was spilling into the nursery-room in slats from the street-lamps out-side. The Girl was on her knees beside a tiny crib, arms crossed on the rail over an un-covered form, still sleeping …</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>No-thing else here but the bassinet and a chest of drawers with diapers and wipes spilling out. Stars on the mobile, and walls slopped clumsily with yellow paint. A hasty job. The window across from me was open a crack, and a cold draught was tickling the threads of her hanging hair. Beads of water still clung to them, to her thick lashes, ink streaming across her face. </Passage>
-<Passage id="IJ" visible={false}>Two wide, black holes, looking down at that face with a soul-selling ferocity. Only now, the child was in her arms. There was a bag at her feet, and the drawers were open …</Passage>
+<Passage id="IJ2" visible={false}>No-thing else here but the bassinet and a chest of drawers with diapers and wipes spilling out. Stars on the mobile, and walls slopped clumsily with yellow paint. A hasty job. The window across from me was open a crack, and a cold draught was tickling the threads of her hanging hair. Beads of water still clung to them, to her thick lashes, ink streaming across her face. </Passage>
+<Passage id="IJ2" visible={false}>Two wide, black holes, looking down at that face with a soul-selling ferocity. Only now, the child was in her arms. There was a bag at her feet, and the drawers were open …</Passage>
 </p>,
 
 <p>
-<Passage id="IJ" visible={false}>I didn't move. Neither did she.</Passage>
+<Passage id="IJ2" visible={false}>I didn't move. Neither did she.</Passage>
 </p>,
 
 <p>
@@ -1080,24 +1673,26 @@ export default [
 <p>
 <Passage id="IK" visible={false}>There was only one sensible reaction at this moment ¬– and luckily I was in the rare presence of mind to see it. Back away, very, very calmly. Make your way, softly, slowly, to the door. Don't disturb a single thing. Don't upset this precious balance. The only hope of survival to make it to the door and down the road, to follow the fresh taste of ashes, back down into a city which was already bellowing its beckons.</Passage>
 <Passage id="IK" visible={false}>I knew that it would all make sense in retrospect, though.</Passage>
-<Passage id="IK" adds= {["JK", "JL"]} subtracts= {["AJ", "BJ", "CJ", "DJ", "EJ", "FJ", "GJ", "HJ", "IJ", "Ii"]} visible={false}>I had the faith un-shakeable.</Passage>
+<Passage id="IK" adds={["JK", "JL"]} subtracts={["AJ", "BJ", "CJ", "DJ", "EJ", "FJ", "GJ", "HJ", "IJ", "Ii", "IJ2"]} visible={false}>I had the faith un-shakeable.</Passage>
 </p>,
 
 <p>
 <Passage id="KL" visible={false}>And soon, I found that I was right. In my hostel bed, alone, the sound of sirens lulled me down to sleep.</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  <Passage id="KL" visible={false}>,```&nbsp```</Passage>
-  </p>,
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+<Passage id="KL" visible={false}>&nbsp;</Passage>
+</p>,
 
   <p>
 <Passage id="KL" visible={false}>As soon as I'd woken again the next morning, atop the old bunk in my newly-lit hostel dorm and gathered what remained of my thoughts, I decided to take a fresh assessment of my assets. </Passage>
@@ -1110,47 +1705,47 @@ export default [
 <Passage id="KL" visible={false}>When I dug deeper though, there were pictures saved to the phone's camera setting. I sifted through them eagerly, glad to have some definitive records that might help jog my memory.</Passage>
   </p>,
 
-  <p>
-  <Passage id="LN" adds={["MN", "MO"]} subtracts={["LM", "KM"]} visible={false}>Pt. III :    "THE SLIP" </Passage>
-  </p>,
+<p>
+<Passage id="LN" adds={["MN", "MO", "MP"]} subtracts={["LM", "KM"]} visible={false}>Pt. III :    "THE SLIP" </Passage>
+</p>,
 
 
-  <p>
-  <Passage id="LN" visible={false}>It's getting to about that time. </Passage>
-  <Passage id="LN" visible={false}>I am sat in this room, in this room.</Passage>
-  <Passage id="LN" visible={false}>The familiar house with the little brass crocodile and the ruined grand-father clock, long-since having donged its last ding.</Passage>
-  </p>,
+<p>
+<Passage id="LN" visible={false}>It's getting to about that time. </Passage>
+<Passage id="LN" visible={false}>I am sat in this room, in this room.</Passage>
+<Passage id="LN" visible={false}>The familiar house with the little brass crocodile and the ruined grand-father clock, long-since having donged its last ding.</Passage>
+</p>,
 
-  <p>
-  <Passage id="LN" visible={false}>It's that time of the night when people are mostly on their back in various terms of surrender. To that point in most parties where the bunting is usually ripped and the balloons are all frowning from exhaustion. When boredom is starting to lay a terrible hand on the tiller. When we're none of us going to be talked to in tones like that anymore. That we're deciding that we're not going to be put upon so crudely any longer.</Passage>
-  <Passage id="LN" visible={false}>The energetics of the party have torn the house apart as a kind of gross physical salute to the needs of youth, halted only by the final exhaustion of booze and destructive potential. </Passage>
-  </p>,
+<p>
+<Passage id="LN" visible={false}>It's that time of the night when people are mostly on their back in various terms of surrender. To that point in most parties where the bunting is usually ripped and the balloons are all frowning from exhaustion. When boredom is starting to lay a terrible hand on the tiller. When we're none of us going to be talked to in tones like that anymore. That we're deciding that we're not going to be put upon so crudely any longer.</Passage>
+<Passage id="LN" visible={false}>The energetics of the party have torn the house apart as a kind of gross physical salute to the needs of youth, halted only by the final exhaustion of booze and destructive potential. </Passage>
+</p>,
 
-  <p>
-  <Passage id="LN" visible={false}>We live here, for now – we, the un-invited diaspora, an invasion force without qualms for collateral damage. We, the nomadic parasites of the Deeps.</Passage>
-  <Passage id="LN" visible={false}>We are frauds, I suppose, professional imposters who could counterfeit whole identities for days on end. Get a way with words, get away with murder, so they say. </Passage>
-  </p>,
+<p>
+<Passage id="LN" visible={false}>We live here, for now – we, the un-invited diaspora, an invasion force without qualms for collateral damage. We, the nomadic parasites of the Deeps.</Passage>
+<Passage id="LN" visible={false}>We are frauds, I suppose, professional imposters who could counterfeit whole identities for days on end. Get a way with words, get away with murder, so they say. </Passage>
+</p>,
 
-  <p>
-  <Passage id="LN" visible={false}>We are frauds, I suppose, professional imposters who could counterfeit whole identities for days on end. Get a way with words, get away with murder, so they say. </Passage>
-  <Passage id="LN" visible={false}>We would live like ghosts, walking a new life across the city, ‘til the shoes wear out and we're obliged to chuck ‘em in and find a fresher pair. You could fish out a name and photo on-line, catch a new set of numbers in the net and then shop for an address and a new life-story. We have these negative eyes for the urban sprawl, seeking out the blind-spots – no-places which could fall silent and empty at night … Wipe-clean lobbies, waiting-rooms, office-zones. Places where no-one stays for long. Scalping for hot tickets, we'd patrol each street in the Deeps, looking for the fullest mail-slots, the longest grass, lights off and trash-less. We make our nests on such bare branches. Climb inside, bar every-thing with broken furniture and jam spare keys into all the interior locks so they won't turn. </Passage>
-  <Passage id="LN" visible={false}>Off-colour remarks, delusions of grandeur and gross physical decline. With diplomatic relations at an all-time low, we are invoking our most fundamental humanitarian rights. This atrocity could not, in good faith, continue any longer. </Passage>
-  </p>,
+<p>
+<Passage id="LN" visible={false}>We are frauds, I suppose, professional imposters who could counterfeit whole identities for days on end. Get a way with words, get away with murder, so they say. </Passage>
+<Passage id="LN" visible={false}>We would live like ghosts, walking a new life across the city, ‘til the shoes wear out and we're obliged to chuck ‘em in and find a fresher pair. You could fish out a name and photo on-line, catch a new set of numbers in the net and then shop for an address and a new life-story. We have these negative eyes for the urban sprawl, seeking out the blind-spots – no-places which could fall silent and empty at night … Wipe-clean lobbies, waiting-rooms, office-zones. Places where no-one stays for long. Scalping for hot tickets, we'd patrol each street in the Deeps, looking for the fullest mail-slots, the longest grass, lights off and trash-less. We make our nests on such bare branches. Climb inside, bar every-thing with broken furniture and jam spare keys into all the interior locks so they won't turn. </Passage>
+<Passage id="LN" visible={false}>Off-colour remarks, delusions of grandeur and gross physical decline. With diplomatic relations at an all-time low, we are invoking our most fundamental humanitarian rights. This atrocity could not, in good faith, continue any longer. </Passage>
+</p>,
 
-  <p>
-  <Passage id="LN" visible={false}>The speakers are playing a cheap, back-market-flavoured hockey-hooch-bee-bopp sort of rubbish, but no-one is listening any longer. </Passage>
-  <Passage id="LN" visible={false}>Where am I, now? …</Passage>
+<p>
+<Passage id="LN" visible={false}>The speakers are playing a cheap, back-market-flavoured hockey-hooch-bee-bopp sort of rubbish, but no-one is listening any longer. </Passage>
+<Passage id="LN" visible={false}>Where am I, now? …</Passage>
 <Passage id="LN" visible={false}>I feel you before you announce your presence, sitting with me, alone in the silver lining. I taste the tang of strict metal, and the scent of your coconut tobacco. I have laid my head in your lap for some rare moment of peace or reconciled possession, and you lay your hand on me, warm and soft, using the other to place a rolled ‘grette between your lips and lighting it, lightly.</Passage>
-  <Passage id="LN" visible={false}>- 	Do you remember where we are?</Passage>
+<Passage id="LN" visible={false}>- 	Do you remember where we are?</Passage>
 <Passage id="LN" visible={false}>I don't know whether I say any-thing. Sense dictates I must have, some-how.</Passage>
-  <Passage id="LN" visible={false}>-		Don't you worry, babe. We'll take care of you.</Passage>
+<Passage id="LN" visible={false}>-		Don't you worry, babe. We'll take care of you.</Passage>
 <Passage id="LN" visible={false}>And suddenly there is the bald man him-self, back from the bathroom, sidling onto the porch with us, looking guilty and mischievous in equal measure.</Passage>
-  <Passage id="LN" visible={false}>My oldest friends, my fellow reprobates, our precious context. Our eyes meet, and we share a sly and complicit smile.</Passage>
+<Passage id="LN" visible={false}>My oldest friends, my fellow reprobates, our precious context. Our eyes meet, and we share a sly and complicit smile.</Passage>
 <Passage id="LN" visible={false}>We are the ones we have been looking for, alone but for each other, bonded by trusted deceit. </Passage>
-  <Passage id="LN" visible={false}>-		Well, he ain't moving.</Passage>
+<Passage id="LN" visible={false}>-		Well, he ain't moving.</Passage>
 <Passage id="LN" visible={false}>He is not speaking to me. He is speaking to you. The key is on a string, wrapped about his wrist. A phone is in his hand. I can't recall his name. I can't recall any names. Not even my own.</Passage>
-  <Passage id="LN" visible={false}>-		Little too little or much too much, I'd say.</Passage>
-  </p>,
+<Passage id="LN" visible={false}>-		Little too little or much too much, I'd say.</Passage>
+</p>,
 
   <p>
   <Passage id="LN" visible={false}>What happens next? …</Passage>
@@ -1167,7 +1762,7 @@ export default [
   </p>,
 
   <p>
-<Passage id="KN" visible={false}>Here we all are together. </Passage>
+  <Passage id="KN" visible={false}>Here we all are together. </Passage>
   <Passage id="KL" visible={false}>You, I suppose, us – the bloke with the shaven head, a non-descript, blonde-haired bloke and a young couple at each other's shoulders, sat ‘round some in-distinct dining table. Faces I thought I recognised. Here, in theory. </Passage>
   <Passage id="KL" visible={false}>Here's some older pictures …</Passage>
   <Passage id="KN" visible={false}>Bottles on a wall. Floor. Cavorting figures atop a piano, caked in make-up like war-paint. Rabbit-ears over a prone corpse.</Passage>
@@ -1186,10 +1781,12 @@ export default [
   <Passage id="KL" visible={false}>A stir, a distant connection like ships colliding on some distant sea. A connection.</Passage>
   </p>,
 
-  <p>
-  <Passage id="KM" visible={false}>Ah yes, there it was, at last. </Passage>
-  <Passage id="KM" adds={["LM", "LN"]} subtracts={["KL", "JL"]} visible={false}>It was coming back, back-story and all.</Passage>
-  </p>,
+<p>
+<Passage id="KM" visible={false}>Ah yes, there it was, at last. </Passage>
+<Passage id="KM" adds={["LM", "LN"]} subtracts={["KL", "JL"]} visible={false}>It was coming back, back-story and all.</Passage>
+<Passage id="KM" visible={false}>&nbsp;</Passage>
+<Passage id="KM" visible={false}>...</Passage>
+</p>,
 
   <p>
   <Passage id="MN" visible={false}>At that moment, the dreadful proprietor shoved his face through the door and started making a racket about the bed. This fresh hell might have pranged me, but I couldn't let the imposition of having to catch this brick interrupt the nice tide of momentum which had started to build in my favour during the final acts of the previous night. Worse things happen at sea, so they say, and stranger.</Passage>
@@ -1277,7 +1874,7 @@ export default [
   <Passage id="MP" visible={false}>I fished in my trousers-pocket and pulled up the battered ‘grette-packet I had inspected earlier …</Passage>
   <Passage id="MP" visible={false}>I drew out a ‘grette and looked at it intently, swivelling its circumference, then eyeing it from every angle like a snooker-cue. This was a superior product, plain and simple. Who-ever had made such a thing could be very proud of their work. Test for torsion, pinch and twist in opposite directions. There was no doubt that enough of this stuff would make me super-human …</Passage>
   <Passage id="MP" visible={false}>Which end ? … Ah yes. I lit its tip and inhaled through the filter.</Passage>
-  <Passage id="MP" adds={["NO", "NP"]} subtracts={["MN", "LN"]} visible={false}>… </Passage>
+  <Passage id="MP" adds={["NO", "NP"]} subtracts={["MN", "LN", "KN"]} visible={false}>… </Passage>
   </p>,
 
   <p>
@@ -1313,8 +1910,8 @@ export default [
   <Passage id="OP" visible={false}>Over the rain came a sudden, faint hissing sound and, as I turned, a low dark shape emerged from the curtain of drizzle behind me, scuttling ‘cross the ground. It was a loose tire. It scythed through the gutter puddles, carried by sheer momentum, mounted the pavement and met the chain-link fence at the edge of the lot with a fatalistic crash. It teetered on its rim un-certainly for a moment, then collapsed onto its side, exhausted. Every-thing was dead still once more and I returned my eyes to the ground, where they seemed to belong …</Passage>
   <Passage id="OP" visible={false}>Up atop his slide, the denizen crowed at me to get lost. I told him to get found …</Passage>
   <Passage id="OP" visible={false}>He told me to go to hell. I told him I was already there.</Passage>
-  <Passage id="OP" visible={false}>```&nbsp```</Passage>
-  <Passage id="OP" visible={false}>```&nbsp```</Passage>
+  <Passage id="OP" visible={false}>&nbsp:</Passage>
+  <Passage id="OP" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1391,7 +1988,7 @@ export default [
   </p>,
 
   <p>
-  <Passage id="OQ" adds={["PQ"]} subtracts={["OP", "NP", "MP"]} visible={false}>It had its own strange brand of beauty. some-thing in the shape of the trees around the blue school-roofs told me that this was one place truly piteous. some-thing in the texture of the stone told me that I had spent copious time here in the past … But now the gates were shut and solemn and so I followed suit, and passed on.</Passage>
+  <Passage id="OQ" adds={["PQ"]} subtracts={["OP", "NP", "MP"]} visible={false}>It had its own strange brand of beauty. Some-thing in the shape of the trees around the blue school-roofs told me that this was one place truly piteous. some-thing in the texture of the stone told me that I had spent copious time here in the past … But now the gates were shut and solemn and so I followed suit, and passed on.</Passage>
   </p>,
 
   <p>
@@ -1440,7 +2037,7 @@ export default [
   <Passage id="QR" visible={false}>They would tolerate me for a while, and then once I had settled down they would carry me back to my room and tuck me back in. Not annoyed, not even surprised, only dutiful, careful never ever to wake a sleep-walker. I would likely have died from the shock, and they knew that.</Passage>
   <Passage id="QR" visible={false}>I cannot remember a thing about these black-out episodes, in fact, just what my parents repeatedly told me, in increasing tones of exasperation. I cannot remember what made me walk and rave like that. Meaningless dreams, no doubt, with little bearing on reality. I would just wake up in the morning, a good night's sleep weighing on me, to find the room in turmoil. </Passage>
   <Passage id="QR" visible={false}>Furniture over-turned, every-thing out of its rightful place, and my clothes spread out amongst a mess of upset possessions.</Passage>
-  <Passage id="QR" visible={false}>```&nbsp```</Passage>
+  <Passage id="QR" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1451,7 +2048,7 @@ export default [
   <Passage id="QR" visible={false}>The piano-stool is hard beneath me, back straight.</Passage>
   <Passage id="QR" visible={false}>Teacher's voice, bored and impatient. Low A. High A. My father's voice, asking whether we want tea. Bored and impatient. Not now. A … High B. Very good.</Passage>
   <Passage id="QR" visible={false}>I reach out before me. The keys are cold.</Passage>
-  <Passage id="QR" visible={false}>```&nbsp```</Passage>
+  <Passage id="QR" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1490,6 +2087,8 @@ export default [
   </p>,
 
   <p>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
   <Passage id="OR" visible={false}>What happened? ...</Passage>
   <Passage id="OR" visible={false}>It struck me. All of a sudden. Raw and livid things came in my head, all fresh to me as strange pain. I stood a while, trying to be sure … And then I was.</Passage>
   </p>,
@@ -1497,7 +2096,12 @@ export default [
   <p>
   <Passage id="OR" visible={false}>I crossed the street again, and vaulted over the low wall into the empty church-yard on the other side. I hunted ‘round, searching for grave-stones of an appropriate height, of logical curvature and suitable erosion … And found two near the rear, hooded and huddled ‘neath the shadowed cover of a spreading yew's branches. Two parallel plots, headed with symmetrical inscriptions. I stood above them …</Passage>
   <Passage id="OR" visible={false}>The stones were old and worn, running with the rain.</Passage>
-  <Passage id="OR" adds= {["QR"]} subtracts= {["OQ", "PQ"]} visible={false}>Their names wept ‘neath my fingers.</Passage>
+  <Passage id="OR" adds={["QR"]} subtracts={["OQ", "PQ"]} visible={false}>Their names wept ‘neath my fingers.</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1506,6 +2110,8 @@ export default [
 
   <p>
   <Passage id="OR" visible={false}>Now I only followed my feet, through list-less streets that were guiding me back towards some central font.</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
   <Passage id="OR" visible={false}>Here and there, I found a some-thing new that seemed familiar. An empty plastic bin skewed from its place that rang with recognition. A car parked up some gravel drive whose paint reflected my intent in some in-visible spectrum.</Passage>
   <Passage id="OR" visible={false}>At last, I found the very place on one of the many back-market sprawls of suburbia. I was surprised to find that every flower-bed had been re-planted, and when I tried the door, it was actually locked … Clearly, no-one was home, however – the windows were dark, and the drive-way empty, so I circled ‘round to the back-yard through a small side-gate to case the joint …</Passage>
   <Passage id="OR" visible={false}>Let me see … Small lawn, no real watering-cans or plant-pots to speak of. Clean, green grass. A low patio wall with no loose bricks. A little shed with an inordinately-large lock. A sad, rust-encrusted barbecue set, ah – that up-turned sand-castle pot by the corner, displaced noticeably.</Passage>
@@ -1555,80 +2161,80 @@ export default [
   <p>
   <Passage id="RT" visible={false}>The knives slide out nicely from their rack.</Passage>
   <Passage id="RT" visible={false}>The handle to my hand, snug, palm to hilt. Finders, keepers, so they say.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>Make your way, softly, slowly, to the door.</Passage>
   <Passage id="RT" visible={false}>Don't disturb a single thing. Don't upset this precious balance. Make it to the door and down the road, to follow the fresh taste of ashes. </Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>Things are not as they are. This door is ajar. Another dead end.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>-		Are you coming?</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>He is not talking to me. He is talking to you.</Passage>
   <Passage id="RT" visible={false}>Face-less names, name-less faces.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>-		The phone, babe.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>My heart is a dance of fear.</Passage>
   <Passage id="RT" visible={false}>This knife is in my hand, its edge gummed with blood.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>Flat as a slab of ice, the man lies. You can hardly see the wound from above.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>Sepulchral silence. Afloat in close air.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>Peace, if not peacefulness …</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>-		I'm gone.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>The door is beyond.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>-		You'd better stay. Someone should.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>Restive shapes through the crack of the jamb, shifting bars of shadow along a slim gossamer between the hinges, hiding light. They are laughing, in there.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="RT" visible={false}>The door-knob in in my hand, this sweatiest palm.</Passage>
-  <Passage id="RT" visible={false}>```&nbsp```</Passage>
+  <Passage id="RT" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1637,7 +2243,7 @@ export default [
 
   <p>
   <Passage id="OR" visible={false}>In the centre of the floor, instead of a nest of bed-clothes there was now a shag-rug on the living room floor stretched out like a long, horizontal dog. The only sign of dis-order in this room was that now the whole place had become littered with books, even more so than before … Maybe this had in fact been the natural order, before-hand. I had to sweep a few off of the couch onto the floor just to sit down. I felt no strong urge to pick any of ‘em up. I didn't even know whether I remembered how to read. Not properly. Why should I pay to listen to some-one else's problems? … Besides which, I was exhausted. I'd been grappling with reality and now all I wanted was to crawl off into the cupboards and shelves somewhere safe and fight off the dark with artificial lights before the owners returned ...</Passage>
-  <Passage id="OR" visible={false}>```&nbsp```</Passage>
+  <Passage id="OR" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1659,11 +2265,11 @@ export default [
   </p>,
 
   <p>
-  <Passage id="OT" adds= {["RS", "RT"]} subtracts= {["QR", "OR"]} visible={false}>Let me remember, my only God. Let me remember …</Passage>
+  <Passage id="OT" adds={["RS", "RT"]} subtracts={["QR", "OR"]} visible={false}>Let me remember, my only God. Let me remember …</Passage>
   </p>,
 
   <p>
-  <Passage id="TV" adds= {["UV", "UW"]} subtracts= {["TU", "SU"]} visible={false}>Pt. VI: "THE LIGHT OF OUR TOMORROW CASTS THE SHADOWS OF YESTERDAY"</Passage>
+  <Passage id="TV" adds={["UV", "UW"]} subtracts={["TU", "SU"]} visible={false}>Pt. VI: "THE LIGHT OF OUR TOMORROW CASTS THE SHADOWS OF YESTERDAY"</Passage>
   </p>,
 
   <p>
@@ -1716,13 +2322,13 @@ export default [
   <p>
   <Passage id="ST" visible={false}>Out on the back-yard stoop, I locked the door behind me, and went to sit on the low garden-wall out back to watch it go up. I stayed there for a while, just long enough to make sure. Once I saw flames licking from the upper stories, I rose. Carefully returning the key to its hiding-place ‘neath the sand-castle pot, I made my way carefully ‘round the side of the house again, just as the upper-windows began to splinter from the heat and the crackling emissions burst out to join the air – the squeal of souls boiling, all trapped and on fire.</Passage>
   <Passage id="ST" visible={false}>New clouds ascended as I walked towards the sound of sirens.</Passage>
-  <Passage id="SU" visible={false}>```&nbsp```</Passage>
-  <Passage id="SU" visible={false}>```&nbsp```</Passage>
-  <Passage id="SU" visible={false}>```&nbsp```</Passage>
-  <Passage id="SU" visible={false}>```&nbsp```</Passage>
-  <Passage id="SU" visible={false}>```&nbsp```</Passage>
-  <Passage id="SU" visible={false}>```&nbsp```</Passage>
-  <Passage id="SU" adds={["TU", "TV"]} subtracts={["ST", "RT", "OT"]} visible={false}>```&nbsp```</Passage>
+  <Passage id="SU" visible={false}>&nbsp;</Passage>
+  <Passage id="SU" visible={false}>&nbsp;</Passage>
+  <Passage id="SU" visible={false}>&nbsp;</Passage>
+  <Passage id="SU" visible={false}>&nbsp;</Passage>
+  <Passage id="SU" visible={false}>&nbsp;</Passage>
+  <Passage id="SU" visible={false}>&nbsp;</Passage>
+  <Passage id="SU" adds={["TU", "TV"]} subtracts={["ST", "RT", "OT"]} visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1732,12 +2338,12 @@ export default [
   <p>
   <Passage id="UV" visible={false}>Before we go one step further, I pause to speak – but some-thing is choking me. You are looking at me without legible expression. I start to gag, staggering back from you – I look at you fully in the face, but now your features are shifting, black tarantula-eyes melting into mouth, nose and ears trading places, un-recognisable. My world turns, the hands spin. My mouth is full of hair and my teeth are shattering. Doubled over, I am spewing out long, braided coils, ravelling down to the floor and still you look to me and you burst bellowing into flames – not just red but yellow and purple-blue and eerie green – and up comes that rushing noise, the cacophonous ice-cream bells and church peals in High B, dog barks and the turn of the years, tide on tide – and your voice, deep and low and beckoning, filling me with dreams and pulling me on-wards, thrilled with fear –</Passage>
   <Passage id="UV" visible={false}>You are every-thing I could ever imagine.</Passage>
-  <Passage id="UV" visible={false}>```&nbsp```</Passage>
-  <Passage id="UV" visible={false}>```&nbsp```</Passage>
-  <Passage id="UV" visible={false}>```&nbsp```</Passage>
-  <Passage id="UV" visible={false}>```&nbsp```</Passage>
-  <Passage id="UV" visible={false}>```&nbsp```</Passage>
-  <Passage id="UV" visible={false}>```&nbsp```</Passage>
+  <Passage id="UV" visible={false}>&nbsp;</Passage>
+  <Passage id="UV" visible={false}>&nbsp;</Passage>
+  <Passage id="UV" visible={false}>&nbsp;</Passage>
+  <Passage id="UV" visible={false}>&nbsp;</Passage>
+  <Passage id="UV" visible={false}>&nbsp;</Passage>
+  <Passage id="UV" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1792,23 +2398,23 @@ export default [
 
   <p>
   <Passage id="VX" adds={["WX", "WY"]} subtracts={["VW", "UW"]} visible={false}>Your hands are soft, and your lap is warm.</Passage>
-  <Passage id="VX" visible={false}>```&nbsp```</Passage>
+  <Passage id="VX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="VX" visible={false}>Is that you? Sucking along my middle finger.</Passage>
-  <Passage id="VX" visible={false}>```&nbsp```</Passage>
+  <Passage id="VX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="VW" visible={false}>Did that not happen? … Under ancient light, memories of fire.</Passage>
-  <Passage id="VW" visible={false}>```&nbsp```</Passage>
+  <Passage id="VW" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="VW" visible={false}>Dark and quiet, turning motion, and the desperate feeling of company spread upon a flat void.</Passage>
   <Passage id="VW" visible={false}>You are here with me, a presence beyond imagination. I am in your arms, but do not feel it. I am in wonder.</Passage>
-  <Passage id="VW" visible={false}>```&nbsp```</Passage>
+  <Passage id="VW" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -1817,19 +2423,19 @@ export default [
   <Passage id="VW" visible={false}>Who knew. And who knew who knew? Not me. </Passage>
   <Passage id="VW" visible={false}>Is this all there is? … Where are the stars? … Where are the trees? Do I wake to find them? …</Passage>
   <Passage id="VW" visible={false}>Reality, a harsh mistress. She melts my ice-cream-castles.</Passage>
-  <Passage id="VW" visible={false}>```&nbsp```</Passage>
+  <Passage id="VW" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="VW" visible={false}>Soft hands, warm lap.</Passage>
   <Passage id="VW" visible={false}>Where are you, and when, and why did you leave me alone? </Passage>
   <Passage id="VW" visible={false}>If there is no reason, I will make one.</Passage>
-  <Passage id="VW" visible={false}>```&nbsp```</Passage>
+  <Passage id="VW" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="VW" visible={false}>Why this, and not nothing?</Passage>
-  <Passage id="VW" visible={false}>```&nbsp```</Passage>
+  <Passage id="VW" visible={false}>&nbsp;</Passage>
   </p>,
 
 
@@ -2401,29 +3007,29 @@ export default [
   </p>,
 
   <p>
-  <Passage id="XZ" adds= {["YZ1", "YZ2"]} subtracts= {["WY", "XY"]} visible={false}>Don't look at me, don't look at me. Listen.</Passage>
+  <Passage id="XZ" adds={["YZ1", "Yi1", "Yi2"]} subtracts={["WY", "XY"]} visible={false}>Don't look at me, don't look at me. Listen.</Passage>
   <Passage id="XZ" visible={false}>I have seen so much and said so little.</Passage>
-  <Passage id="XZ" visible={false}>```&nbsp```</Passage>
-  <Passage id="XZ" visible={false}>```&nbsp```</Passage>
+  <Passage id="XZ" visible={false}>&nbsp;</Passage>
+  <Passage id="XZ" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XZ" visible={false}>I am so very tired. Kill me quickly. I don't have long to stay.</Passage>
-  <Passage id="XZ" visible={false}>```&nbsp```</Passage>
-  <Passage id="XZ" visible={false}>```&nbsp```</Passage>
+  <Passage id="XZ" visible={false}>&nbsp;</Passage>
+  <Passage id="XZ" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XZ" visible={false}>I shall wait here, and keep faith.</Passage>
   <Passage id="XZ" visible={false}>I cannot enter, and so I will remain.</Passage>
-  <Passage id="XZ" visible={false}>```&nbsp```</Passage>
-  <Passage id="XZ" visible={false}>```&nbsp```</Passage>
+  <Passage id="XZ" visible={false}>&nbsp;</Passage>
+  <Passage id="XZ" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XY" visible={false}>I have been shown the concrete corners of every street in every ten-thousandth city. I have learned the price of every single commodity in every glassy store-front window.</Passage>
   <Passage id="XY" visible={false}>I have seen such sights. I have seen a crocodile swallow up a shark. I have seen famous men hanged in the street, seen books burned in smoking piles and mountain-tops swallowed up by cloud. I have seen my friends in strange faces, shouting at a wall.</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2431,36 +3037,36 @@ export default [
   <Passage id="XY" visible={false}>I have known every-thing there is to know about botany, about oncology, cardiology, cartography, choreography, chiropody, and all the rest. I know lots of long words. I have been to the forum. I have heard what people are saying.</Passage>
   <Passage id="XY" visible={false}>I have been in-side your house. I have seen the state of your sink.</Passage>
   <Passage id="XY" visible={false}>I have slithered up the rivers, following their slow coils into their alpine springs, and back down into the core of the earth. I have walked every railway and road. Circled both poles, looped the longitudinal loop and spun latitudes upon their axles. I have swum the Sea of Tranquillity, and I have been to war.</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XY" visible={false}>I have seen every-thing, and been every-where.</Passage>
   <Passage id="XY" visible={false}>I have been to distant deserts. Tundra and cloud-forests, archipelagos of lagoon atolls, rafts of land-fill the vast size of islands. I have trod the reefs and beaches. I have walked through ashes and cut my feet on diamonds.</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XY" visible={false}>… </Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XY" visible={false}>We name the shapes of clouds, lying on the church lawn.</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XY" visible={false}>We play conkers together, sledging each other to shards. Playing hide-and-seek, sardines and grand-mother's foot-steps Don't look, don't look. Watch out. </Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="XY" visible={false}>Ready or not, here I come.</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
-  <Passage id="XY" visible={false}>```&nbsp```</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
+  <Passage id="XY" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2480,19 +3086,19 @@ export default [
   <p>
   <Passage id="WX" visible={false}>In fact, I should be applauded for my part in the whole affair. I'd been the voice of reason during the whole shooting match, so no sand in my sock if the whole thing had gone tits-up, surely. I was a hero, if I thought about it. But what recognition did I receive? None, nada, zilch – a thankless task. It's such hard work being a blameless paragon.</Passage>
   <Passage id="WX" visible={false}>Hearts of gold are the heaviest of all, so it seems.</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="WX" visible={false}>I check my watch. It reads – ten past ten.</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="WX" visible={false}>	Same time, same place. Hardy a change worth accounting for.</Passage>
   <Passage id="WX" visible={false}>Still the rain. It blotted out streets and buildings, and turned passers-by into mist-ghosts in the static, as evanescent as coding glitches. After un-countable days the drains had become over-fed, wretching up in swells. Puddles knee-deep, un-fathomable. Must be careful not to be swept away by the rising tide. The rain was setting about erasing all the memories of the day. The words had been washed clear off of the signs, and now they stood like blank grey slates at intervals up along each and every road. The rain wiped the paint down the walls and into the drain, so that now every store and manse were transfigured into raw stone, name-less and identical. The leaky street-light bulbs all filled up like goldfish-bowls and extinguished. It filled my shoes and my pockets, and had long-since washed the writing clean from my chest and stomach … Surely this couldn't be fair, I thought. Surely no rain-fall could continue in-definitely … Or maybe so. Clearly, the odds were stacked against me upstairs, I thought. I could not escape the idea that I was gradually being dissolved like a tooth dropped in cola, gradually being dis-integrated and washed away down the gutters and pavement cracks, staining the ground with the remnants of my tread wherever I walked …</Passage>
   <Passage id="WX" visible={false}>The folks on the pavements now were not so much ‘zens as drift-wood, dead jetsam or stranded bloats. My own desperation kept painting their faces with recognisable features. In the distance, they all looked familiar – ‘til being resolved into strangers up close and passing by, newly anonymous and staring into their palms. No-one stopped or slowed in their walk, lingering to talk or to look into the store-windows. The stakes were too high to pause ‘neath this down-pour.</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2503,13 +3109,13 @@ export default [
   <Passage id="WX" visible={false}>Every now and then, the same jingle of that damned ice-cream van. In this rain? A likely thought.</Passage>
   <Passage id="WX" visible={false}>Some foul Conspiracy was afoot, this much was certain. Its sole intent – to frame me for murder and make me look a fool. And this one went straight to the top. A cabal of silence, none the wiser to its true breadth…</Passage>
   <Passage id="WX" visible={false}>Maybe so, or maybe not. Fanciful maybe. What could ever I know ‘bout other people? Where's the distinction between perception and reality in the in-escapable skull? … … I see my-self in every one of ‘em but all I get in return are obscure, pitiless looks as solid as these walls. I am hunting statues, clearly …</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="WX" visible={false}>… What must these people see, then, when they see me? A grubby vagrant with a stained dust-jacket and eyes brim-full of bad choices … And what must they think of what they see? … One wonders. To them, I must seem like some fire-fly drifter, lurching randomly from one abstract crisis to another. They simply couldn't conceive of this full and beautiful arc, can't see the inner method hid behind the madness. My order makes little sense to them, but to me … I've lived it.</Passage>
   <Passage id="WX" visible={false}>Who's that bundle of memory? That clutch of words.</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2528,10 +3134,10 @@ export default [
 
   <p>
   <Passage id="WX" visible={false}>And you're gone, again.</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2563,7 +3169,7 @@ export default [
   <Passage id="WX" visible={false}>When he was finished, he tossed the husk away and looked up at me from a hooded hunch, sucking spit through his odd teeth.</Passage>
   <Passage id="WX" visible={false}>-		Thank you, sir. May I have another?</Passage>
   <Passage id="WX" visible={false}>I beat him away with my fore-arm, and he lurched off gradually, looking back over his paunch at me and chuckling wickedly as he went …</Passage>
-  <Passage id="WX" visible={false}>```&nbsp```</Passage>
+  <Passage id="WX" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2580,14 +3186,14 @@ export default [
   <p>
   <Passage id="WX" visible={false}>Inside an old dis-used hotel-block on some old road, I found an old dumb-waiter lift behind a door at the back of the lobby. I managed to jam the mechanism in between floors and curled up next to the neat pile of clothes and watch laid along-side me, listening to its click in the dark …</Passage>
   <Passage id="WX" visible={false}>I turned the phone in my hand and just stared at its light for a long time without touching it. No signal there, or possible escape. I looked into the lock-screen ‘til it powered-down, drained of charge, and the tide of night came roaring up again ‘til all that was left was the thud of the blood in my head and the vacuous wash of my breathing, like waves sucking along some distant beach.</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" visible={false}>```&nbsp```</Passage>
-  <Passage id="WY" adds={["XY", "XZ"]} subtracts= {["WX", "VX"]} visible={false}>```&nbsp```</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" visible={false}>&nbsp;</Passage>
+  <Passage id="WY" adds={["XY", "XZ"]} subtracts={["WX", "VX"]} visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2611,7 +3217,7 @@ export default [
   <Passage id="YZ1" visible={false}>I'm sorry to say that not long after that came a period during which I descended into degenerate attitudes. I'd leech as far as possible off of other denizens I met in the hostels and parks – booze, smokes, any-thing going, natch.. … I stole lemons from a grocer's outdoor display and ate them ‘round the corner, gobbling ‘em up greedily and I discarded their empty rinds. Every now and then I'd pass a fresh-smelling skip in the allies, and I'd have to investigate. Once, I found a third-full tin of dog-scran, and took incredible relish polishing it right down to its rancid bottom, licking the last edible slop from the crannies in search of gross, sensual excess. I found a lockless bike leaning against a row of park railing and rode ‘round on it for a while, calling names and shouting out to the people I saw ‘til the chain slipped and I abandoned it, forlorn, in the flat-puddle nowhere of an empty parking-lot.</Passage>
   <Passage id="YZ1" visible={false}>Every-thing and every-one else seemed to have moved in from the rain. It was just me and the lowest tier of denizen, out in this pitiless void. These were real, pavement ‘zens, gutter-folk, the real no-hopers. I split my shoes with the walking, both soles flapping off in their step and leaving my old socks wet and filthy, as knackered as my-self. I tried selling my long-dead phone to the owner of some knocky-shop on a side street, but even the foulest specimen of that bottom-feeding species of pawn-broker wouldn't have it. Apparently a cracked screen hurts the resale-value … As for clothes, I kept taking on layers wherever I found them. Plastic-wrap and news-paper. Scarf-parts and tattered blanket rags. They were all piled up on me ‘til I could hardly move my arms, and I'd waddle about like some absurd goggle-doll, some weird goblin, festered and filthy. It kept the damp out though, despite the sight, and the heat in. Now good citizenry would swallow their jewellery when they caught sight of me.</Passage>
   <Passage id="YZ1" visible={false}>My lone apple had long-since withered up like a huge, soggy walnut, but I did eventually find a taker for it too. Some manic junkie seemed to think he could boil it down for the cyanide in the pips. Quite the high, apparently, in the right doses. And damn it … Good luck to him.</Passage>
-  <Passage id="YZ1" visible={false}>```&nbsp```</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2620,7 +3226,7 @@ export default [
 
   <p>
   <Passage id="YZ1" visible={false}>Even when I got dry, the whipping air through the alley-way in the night was enough to freeze my flesh solid through the frayed holes in my garms. Stiff digits, number than a number … But there was no pain, nor feeling of any sort. I couldn't even bring my-self to weep – couldn't even bring my-self to feel a thing, beyond a vast and private privation, detached from the sense of real feeling or connection to my surroundings. I was un-fazed, internally, hollowed from pity or piety. I was nails, as hard as nails …</Passage>
-  <Passage id="YZ1" visible={false}>```&nbsp```</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2632,117 +3238,292 @@ export default [
   <Passage id="YZ1" visible={false}>Reluctantly, I picked my-self up and listened out. The voice was coming from close to hand. Rising to my feet, I walked ‘round the street corner to see – but found nothing but another dark cranny in the side of the building, empty save a filthy skip piled high with another gross pile of trash. Just as I was about to return to my rest, the voice started out again, un-mistakeably near. From in-side the skip.</Passage>
   <Passage id="YZ1" visible={false}>I peered in-side, and in amongst all the variety of other trash was lying a crippled shop mannequin, head twisted back-wards on its torso, limbless save one stiff arm pointed up-wards out the hole, in a kind of sad, valedictory salute. </Passage>
   <Passage id="YZ1" visible={false}>Un-bearably pathetic. My heart went out to him.</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ1" visible={false}>&nbsp;</Passage>
   </p>,
 
 
   <p>
-  <Passage id="Yi" visible={false}>-		Hello? </Passage>
-  <Passage id="Yi" visible={false}>-		Help! …</Passage>
-  <Passage id="Yi" visible={false}>-		I'm trying to sleep.</Passage>
-  <Passage id="Yi" visible={false}>-		I'm sorry … Where am I? …</Passage>
-  <Passage id="Yi" visible={false}>-		Hell.</Passage>
-  <Passage id="Yi" visible={false}>-		I thought so … </Passage>
-  <Passage id="Yi" visible={false}>-		Are you alive? …</Passage>
-  <Passage id="Yi" visible={false}>-		You tell me.</Passage>
-  <Passage id="Yi" visible={false}>-		Are you dead? …</Passage>
-  <Passage id="Yi" visible={false}>-		Not as far as I know.</Passage>
-  <Passage id="Yi" visible={false}>-		There you have it, then.</Passage>
-  <Passage id="Yi" visible={false}>-		Help! I can't see. I feel cold.</Passage>
-  <Passage id="Yi" visible={false}>-		So do I, so does every-one.</Passage>
-  <Passage id="Yi" visible={false}>-		Please stay.</Passage>
-  <Passage id="Yi" visible={false}>-		I should really get going.</Passage>
-  <Passage id="Yi" visible={false}>-		But I can't see. I can't move.</Passage>
-  <Passage id="Yi" visible={false}>-		Think of better things. Nothing much to see here any-how.</Passage>
-  <Passage id="Yi" visible={false}>-		What am I? …</Passage>
-  <Passage id="Yi" visible={false}>-		What-ever you want.</Passage>
-  <Passage id="Yi" visible={false}>-		You have a kind voice … Please help.</Passage>
-  <Passage id="Yi" visible={false}>-		Not much I can do, to be honest – let me see …</Passage>
+  <Passage id="YY" visible={false}>-		Hello? </Passage>
+  <Passage id="YY" visible={false}>-		Help! …</Passage>
+  <Passage id="YY" visible={false}>-		I'm trying to sleep.</Passage>
+  <Passage id="YY" visible={false}>-		I'm sorry … Where am I? …</Passage>
+  <Passage id="YY" visible={false}>-		Hell.</Passage>
+  <Passage id="YY" visible={false}>-		I thought so … </Passage>
+  <Passage id="YY" visible={false}>-		Are you alive? …</Passage>
+  <Passage id="YY" visible={false}>-		You tell me.</Passage>
+  <Passage id="YY" visible={false}>-		Are you dead? …</Passage>
+  <Passage id="YY" visible={false}>-		Not as far as I know.</Passage>
+  <Passage id="YY" visible={false}>-		There you have it, then.</Passage>
+  <Passage id="YY" visible={false}>-		Help! I can't see. I feel cold.</Passage>
+  <Passage id="YY" visible={false}>-		So do I, so does every-one.</Passage>
+  <Passage id="YY" visible={false}>-		Please stay.</Passage>
+  <Passage id="YY" visible={false}>-		I should really get going.</Passage>
+  <Passage id="YY" visible={false}>-		But I can't see. I can't move.</Passage>
+  <Passage id="YY" visible={false}>-		Think of better things. Nothing much to see here any-how.</Passage>
+  <Passage id="YY" visible={false}>-		What am I? …</Passage>
+  <Passage id="YY" visible={false}>-		What-ever you want.</Passage>
+  <Passage id="YY" visible={false}>-		You have a kind voice … Please help.</Passage>
+  <Passage id="YY" visible={false}>-		Not much I can do, to be honest – let me see …</Passage>
   </p>,
 
 
-  <p>
-  <Passage id="Yi1" adds="Yi2" subtracts= {["YZ1", "YZ2"]} visible={false}>–	Hello?</Passage>
-  </p>,
+<p>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>–	Hello?</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+<Passage id="Yi1" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi3" adds="Yi4" subtracts="Yi2" visible={false}>-	I'm trying to sleep.</Passage>
-  </p>,
+<p>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" adds="Yi4" subtracts="Yi2" visible={false}>-	I'm trying to sleep.</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+<Passage id="Yi3" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi5" adds="Yi6" subtracts="Yi4" visible={false}>-	Hell.</Passage>
-  </p>,
+<p>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" adds="Yi6" subtracts="Yi4" visible={false}>-	Hell.</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+<Passage id="Yi5" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi7" adds="Yi8" subtracts="Yi6" visible={false}>-	Are you alive? …</Passage>
-  </p>,
+<p>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" adds="Yi8" subtracts="Yi6" visible={false}>-	Are you alive? …</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+<Passage id="Yi7" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi9" adds="Yi10" subtracts="Yi8" visible={false}>-	Are you dead? …</Passage>
-  </p>,
+<p>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" adds="Yi10" subtracts="Yi8" visible={false}>-	Are you dead? …</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+<Passage id="Yi9" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi11" adds="Yi12" subtracts="Yi10" visible={false}>-	There you have it, then.</Passage>
-  </p>,
+<p>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" adds="Yi12" subtracts="Yi10" visible={false}>-	There you have it, then.</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+<Passage id="Yi11" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi13" adds="Yi14" subtracts="Yi12" visible={false}>-	So do I, so does every-one.</Passage>
-  </p>,
+<p>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" adds="Yi14" subtracts="Yi12" visible={false}>-	So do I, so does every-one.</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+<Passage id="Yi13" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi15" adds="Yi16" subtracts="Yi14" visible={false}>-	I should really get going.</Passage>
-  </p>,
+<p>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" adds="Yi16" subtracts="Yi14" visible={false}>-	I should really get going.</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+<Passage id="Yi15" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi17" adds="Yi18" subtracts="Yi16" visible={false}>-	Think of better things. Nothing much to see here any-how.</Passage>
-  </p>,
+<p>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" adds="Yi18" subtracts="Yi16" visible={false}>-	Think of better things. Nothing much to see here any-how.</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+<Passage id="Yi17" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi19" adds="Yi20" subtracts="Yi18" visible={false}>-	What-ever you want.</Passage>
-  </p>,
+<p>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" adds="Yi20" subtracts="Yi18" visible={false}>-	What-ever you want.</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+<Passage id="Yi19" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi21" adds="Yi" subtracts="Yi20" visible={false}>-	Not much I can do, to be honest – let me see …</Passage>
-  </p>,
+<p>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" adds="Yi" subtracts="Yi20" visible={false}>-	Not much I can do, to be honest – let me see …</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+<Passage id="Yi21" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi2" adds="Yi3" subtracts="Yi1" visible={false}>-	Help! …</Passage>
-  </p>,
+<p>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+<Passage id="Yi2" adds="Yi3" subtracts={["Yi1", "YZ1"]} visible={false}>-	Help! …</Passage>
+<Passage id="Yi2" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi4" adds="Yi5" subtracts="Yi3" visible={false}>-	I'm sorry ... Where am I? …</Passage>
-  </p>,
+<p>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+<Passage id="Yi4" adds="Yi5" subtracts="Yi3" visible={false}>-	I'm sorry ... Where am I? …</Passage>
+<Passage id="Yi4" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi6" adds="Yi7" subtracts="Yi5" visible={false}>-	I thought so ...</Passage>
-  </p>,
+<p>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+<Passage id="Yi6" adds="Yi7" subtracts="Yi5" visible={false}>-	I thought so ...</Passage>
+<Passage id="Yi6" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi8" adds="Yi9" subtracts="Yi7" visible={false}>-	You tell me.</Passage>
-  </p>,
+<p>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+<Passage id="Yi8" adds="Yi9" subtracts="Yi7" visible={false}>-	You tell me.</Passage>
+<Passage id="Yi8" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi10" adds="Yi11" subtracts="Yi9" visible={false}>-	Not as far as I know.</Passage>
-  </p>,
+<p>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+<Passage id="Yi10" adds="Yi11" subtracts="Yi9" visible={false}>-	Not as far as I know.</Passage>
+<Passage id="Yi10" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi12" adds="Yi13" subtracts="Yi11" visible={false}>-	Help! I can't see. I feel cold.</Passage>
-  </p>,
+<p>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+<Passage id="Yi12" adds="Yi13" subtracts="Yi11" visible={false}>-	Help! I can't see. I feel cold.</Passage>
+<Passage id="Yi12" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi14" adds="Yi15" subtracts="Yi13" visible={false}>-	Please stay.</Passage>
-  </p>,
+<p>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+<Passage id="Yi14" adds="Yi15" subtracts="Yi13" visible={false}>-	Please stay.</Passage>
+<Passage id="Yi14" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi16" adds="Yi17" subtracts="Yi15" visible={false}>-	But I can't see. I can't move.</Passage>
-  </p>,
+<p>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+<Passage id="Yi16" adds="Yi17" subtracts="Yi15" visible={false}>-	But I can't see. I can't move.</Passage>
+<Passage id="Yi16" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi18" adds="Yi19" subtracts="Yi17" visible={false}>-	What am I? …</Passage>
-  </p>,
+<p>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+<Passage id="Yi18" adds="Yi19" subtracts="Yi17" visible={false}>-	What am I? …</Passage>
+<Passage id="Yi18" visible={false}>&nbsp;</Passage>
+</p>,
 
-  <p>
-  <Passage id="Yi20" adds="Yi21" subtracts="Yi19" visible={false}>-	You have a kind voice … Please help.</Passage>
-  </p>,
+<p>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+<Passage id="Yi20" adds="Yi21" subtracts="Yi19" visible={false}>-	You have a kind voice … Please help.</Passage>
+<Passage id="Yi20" visible={false}>&nbsp;</Passage>
+</p>,
 
   <p>
   <Passage id="Yi" subtracts="Yi21" visible={false}>I fished out my wallet for some-thing to give the poor thing, but a gush of water sloshed out, and I suddenly heard a breath-less gasping. </Passage>
@@ -2764,184 +3545,185 @@ export default [
   </p>,
 
   <p>
-  <Passage id="Yi" adds={["YZ1", "YZ2"]} visible={false}>I chucked the coin into the dumpster and went back to bed.</Passage>
-  <Passage id="Yi" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Yi" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Yi" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Yi" visible={false}>,```&nbsp```</Passage>
-
+  <Passage id="Yi" adds={["YZ1", "YZ2", "YY"]} visible={false}>I chucked the coin into the dumpster and went back to bed.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>I slumped on some court-house steps in a final exhaustive despair. I'd reached the lip of what my criminal cunning could do to win survival. I'd pulled the tethers taut. Thus far, and no further. Where was my perfect end?</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>I slumped on some court-house steps in a final exhaustive despair. I'd reached the lip of what my criminal cunning could do to win survival. I'd pulled the tethers taut. Thus far, and no further. Where was my perfect end?</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>I tugged off my shoes and held one up between my hands to examine it …</Passage>
-  <Passage id="YZ1" visible={false}>The stitching was knackered, and the sole was flopping off like a slack jaw. Cobbled shoddily together. Tied and re-tied ‘til the laces snapped, the metal aglets peeling off in lethal-sharp edges. The zip-slits slipped and split all along their length. An un-salvageable wreck, scuppered by the street.</Passage>
-  <Passage id="YZ1" visible={false}>I chucked ‘em in. Fare-well, good friends. As they tumbled down the steps, my shoes dis-integrated, flinging their bits all over the shop like a truck rolling down a cliff. I took a look at my feet, then immediately wished I hadn't. Some horror is best left to the imagination.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>I tugged off my shoes and held one up between my hands to examine it …</Passage>
+  <Passage id="Yi" visible={false}>The stitching was knackered, and the sole was flopping off like a slack jaw. Cobbled shoddily together. Tied and re-tied ‘til the laces snapped, the metal aglets peeling off in lethal-sharp edges. The zip-slits slipped and split all along their length. An un-salvageable wreck, scuppered by the street.</Passage>
+  <Passage id="Yi" visible={false}>I chucked ‘em in. Fare-well, good friends. As they tumbled down the steps, my shoes dis-integrated, flinging their bits all over the shop like a truck rolling down a cliff. I took a look at my feet, then immediately wished I hadn't. Some horror is best left to the imagination.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>My watch still showed the same time, natch. Ten-ten. Almost as if no interval had passed at all since I'd first picked it up from the floor. The hands hadn't moved or shown any signs of life, but still emitted clicks from somewhere in-side the mechanism. It was a puzzle that I hadn't the expertise to solve. I s'posed I'd never know the time, now …</Passage>
-  <Passage id="YZ1" visible={false}>I fumbled about in my pockets, for the first time in a great while, and my hand came out clutching the slim eye-liner pen I'd picked up from the Old Gold's floor, many moons ago now … I held it out between both of my fore-fingers. Logic told me that the nib must have run dry by then. But then – there was always the possibility that the rain had kept the tip nicely moistened, had stopping it from spoiling.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>My watch still showed the same time, natch. Ten-ten. Almost as if no interval had passed at all since I'd first picked it up from the floor. The hands hadn't moved or shown any signs of life, but still emitted clicks from somewhere in-side the mechanism. It was a puzzle that I hadn't the expertise to solve. I s'posed I'd never know the time, now …</Passage>
+  <Passage id="Yi" visible={false}>I fumbled about in my pockets, for the first time in a great while, and my hand came out clutching the slim eye-liner pen I'd picked up from the Old Gold's floor, many moons ago now … I held it out between both of my fore-fingers. Logic told me that the nib must have run dry by then. But then – there was always the possibility that the rain had kept the tip nicely moistened, had stopping it from spoiling.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>All fine talk, natch – but I couldn't see what good a pen would do me there and then … Perhaps I should pose as a deaf-mute. Write on people's faces by way of answers to questioning. Perhaps I should wander the streets again, autographing cars and hydrants. Indications of authenticity are always an important step … No. That's exactly what they wanted … No evidence, no witnesses. No proof of identity. I was never here …</Passage>
-  <Passage id="YZ1" visible={false}>I had never even opened the pen, to begin with. It must work, this I knew.</Passage>
-  <Passage id="YZ1" visible={false}>Might come in handy for odd notes, to keep a paper record. It was worth a new look, any-how …</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>All fine talk, natch – but I couldn't see what good a pen would do me there and then … Perhaps I should pose as a deaf-mute. Write on people's faces by way of answers to questioning. Perhaps I should wander the streets again, autographing cars and hydrants. Indications of authenticity are always an important step … No. That's exactly what they wanted … No evidence, no witnesses. No proof of identity. I was never here …</Passage>
+  <Passage id="Yi" visible={false}>I had never even opened the pen, to begin with. It must work, this I knew.</Passage>
+  <Passage id="Yi" visible={false}>Might come in handy for odd notes, to keep a paper record. It was worth a new look, any-how …</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>I touched the pen's cap, and immediately a gush of pent ink spilled out from in-side onto my fingers, drops spattering down to spend them-selves on the steps below – but then, amazingly, some of the drops hovered there in the air before my very nose, frozen in place like commas of floating smoke, in-dependent from gravity. They lingered ‘til the rain pulled them down in black streaks to be washed down the steps along with the dark spills already dissolving on the ground … But the effect had been un-mistakeable – but un-believable.</Passage>
+  <Passage id="Yi" visible={false}>I touched the pen's cap, and immediately a gush of pent ink spilled out from in-side onto my fingers, drops spattering down to spend them-selves on the steps below – but then, amazingly, some of the drops hovered there in the air before my very nose, frozen in place like commas of floating smoke, in-dependent from gravity. They lingered ‘til the rain pulled them down in black streaks to be washed down the steps along with the dark spills already dissolving on the ground … But the effect had been un-mistakeable – but un-believable.</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>Now I drew the pen in a wide slash through the air, and a thin black whip-tail traced itself visibly in front of me. It lasted a few moments, before being smeared down before my eyes in a faint curtain …</Passage>
-  <Passage id="YZ1" visible={false}>Incredible.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>Now I drew the pen in a wide slash through the air, and a thin black whip-tail traced itself visibly in front of me. It lasted a few moments, before being smeared down before my eyes in a faint curtain …</Passage>
+  <Passage id="Yi" visible={false}>Incredible.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>I rushed back along back-streets and alley-ways, beside sheet-iron fences and spiked railings as fast as my shoeless feet could carry me ‘til I arrived back at the sheltered space of the alley-way where I had once spent a half a shared night in the dark. In the low light, I took out the pen again and cradled it again in my palm …</Passage>
-  <Passage id="YZ1" visible={false}>I gripped the lid and twisted it loose. Carefully holding the pen near the nib, I traced the word    bed     in the air in front of me. The letters appeared, darkly, etched ‘gainst the light coming through from behind. It seemed as real as my own hand … And the pen in that hand felt as snug as any-thing. I brought my other hand close to the floating letters, brushing my finger-tips along their cursive lines … It felt warm, the word. Softer than a sunset. Felt like visible dark, felt like hair in the eyes and familiar memory.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>I rushed back along back-streets and alley-ways, beside sheet-iron fences and spiked railings as fast as my shoeless feet could carry me ‘til I arrived back at the sheltered space of the alley-way where I had once spent a half a shared night in the dark. In the low light, I took out the pen again and cradled it again in my palm …</Passage>
+  <Passage id="Yi" visible={false}>I gripped the lid and twisted it loose. Carefully holding the pen near the nib, I traced the word    bed     in the air in front of me. The letters appeared, darkly, etched ‘gainst the light coming through from behind. It seemed as real as my own hand … And the pen in that hand felt as snug as any-thing. I brought my other hand close to the floating letters, brushing my finger-tips along their cursive lines … It felt warm, the word. Softer than a sunset. Felt like visible dark, felt like hair in the eyes and familiar memory.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>Not another moment to waste, I thought …</Passage>
-  <Passage id="YZ1" visible={false}>I took some time sketching a roast dinner in front of me in pain-staking detail. Then I traced a fork and a napkin, and tucked into my first square meal in days. I drew a pack of smokes when I was done, and lay back on the sloped floor in some relaxation, enjoying the smokes and lazily counterfeiting bank-notes to line my new pockets. Then I really started to set to work.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>Not another moment to waste, I thought …</Passage>
+  <Passage id="Yi" visible={false}>I took some time sketching a roast dinner in front of me in pain-staking detail. Then I traced a fork and a napkin, and tucked into my first square meal in days. I drew a pack of smokes when I was done, and lay back on the sloped floor in some relaxation, enjoying the smokes and lazily counterfeiting bank-notes to line my new pockets. Then I really started to set to work.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>My new pair of shoes were spectacular things. Resplendent. Gold buckles and Cuban heels. Smart leather stitching and cotton lining. Silken jammies and a droopy night-cap. A four-poster bed took some time to assemble – getting the shade right on the counter-pane was no end of night-mare …</Passage>
-  <Passage id="YZ1" visible={false}>After that, I threw up four walls in two strokes of the pen apiece, one horizontal, one vertical. A splendid rug and a door of embossed mahogany. A ceiling and stencilled-in chandelier, wires, a light switch, and flipped it off …</Passage>
-  <Passage id="YZ1" visible={false}>I crawled ‘neath my new covers and settled down to rest …</Passage>
-  <Passage id="YZ1" visible={false}>I'd had a long day.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>My new pair of shoes were spectacular things. Resplendent. Gold buckles and Cuban heels. Smart leather stitching and cotton lining. Silken jammies and a droopy night-cap. A four-poster bed took some time to assemble – getting the shade right on the counter-pane was no end of night-mare …</Passage>
+  <Passage id="Yi" visible={false}>After that, I threw up four walls in two strokes of the pen apiece, one horizontal, one vertical. A splendid rug and a door of embossed mahogany. A ceiling and stencilled-in chandelier, wires, a light switch, and flipped it off …</Passage>
+  <Passage id="Yi" visible={false}>I crawled ‘neath my new covers and settled down to rest …</Passage>
+  <Passage id="Yi" visible={false}>I'd had a long day.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>Tomorrow, I shall fashion my-self an umbrella. I'll draw up a new dust-jacket and a striking hat, cut to mold. some-thing arresting and preposterous, like the ones you see on big-screen mayoral ball-busters running two-horse towns out in the Wild West. One of those twenty-gallon sombreros …</Passage>
-  <Passage id="YZ1" visible={false}>A power cord, and a new phone to go with it, natch. Copious smokes …</Passage>
-  <Passage id="YZ1" visible={false}>I shall draw my-self an elegant steed. Eighteen gallant hands of thorough-bred sinew. Quick as a gamma-ray out of the stocks – though, with my eye, she'll probably end up looking like some ill-proportioned camel … Freakish haunches and a club-foot. How would people like to see me loping about on the back of this indecorous beast? …</Passage>
-  <Passage id="YZ1" visible={false}>Well …. Fuck 'em. Let ‘em talk. Our bond will be real …</Passage>
-  <Passage id="YZ1" visible={false}>I could create some kind of all-powerful alter-ego. Cape and mask. The power to re-make reality, to fight for truth and justice … Did you hear? That roguish masked marauder is back in town … My God, look at him! That beast, that hat! …</Passage>
-  <Passage id="YZ1" visible={false}>A crown then, a throne and an ice-cream castle to put it all in.  Some gee-gaw that could wash socks automatically …</Passage>
-  <Passage id="YZ1" visible={false}>And if the ink ran dry … Well, I'd just have to write my-self more pens. Cheat the genie …</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>Tomorrow, I shall fashion my-self an umbrella. I'll draw up a new dust-jacket and a striking hat, cut to mold. some-thing arresting and preposterous, like the ones you see on big-screen mayoral ball-busters running two-horse towns out in the Wild West. One of those twenty-gallon sombreros …</Passage>
+  <Passage id="Yi" visible={false}>A power cord, and a new phone to go with it, natch. Copious smokes …</Passage>
+  <Passage id="Yi" visible={false}>I shall draw my-self an elegant steed. Eighteen gallant hands of thorough-bred sinew. Quick as a gamma-ray out of the stocks – though, with my eye, she'll probably end up looking like some ill-proportioned camel … Freakish haunches and a club-foot. How would people like to see me loping about on the back of this indecorous beast? …</Passage>
+  <Passage id="Yi" visible={false}>Well …. Fuck 'em. Let ‘em talk. Our bond will be real …</Passage>
+  <Passage id="Yi" visible={false}>I could create some kind of all-powerful alter-ego. Cape and mask. The power to re-make reality, to fight for truth and justice … Did you hear? That roguish masked marauder is back in town … My God, look at him! That beast, that hat! …</Passage>
+  <Passage id="Yi" visible={false}>A crown then, a throne and an ice-cream castle to put it all in.  Some gee-gaw that could wash socks automatically …</Passage>
+  <Passage id="Yi" visible={false}>And if the ink ran dry … Well, I'd just have to write my-self more pens. Cheat the genie …</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ1" visible={false}>I will raise my pen-hand, the clouds above will part at last and the sun will shine down on us through the dry air, clear as a new day – and the ambient noise of rain-drops will be replaced with deafening, definitive silence.</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ1" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Yi" visible={false}>I will raise my pen-hand, the clouds above will part at last and the sun will shine down on us through the dry air, clear as a new day – and the ambient noise of rain-drops will be replaced with deafening, definitive silence.</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
+  <Passage id="Yi" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="Z1Z3" adds={["Z2Z3", "Z2Z4"]} subtracts={["YZ2", "Z1z2"]} visible={false}>Once, I had a dream that I woke up. </Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z1Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z1Z3" adds={["Z2Z3", "Z2Z4"]} subtracts={["YZ2", "Z1Z2"]} visible={false}>Once, I had a dream that I woke up. </Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z1Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="YZ2" visible={false}>The possibilities endless and immediate, to draw my own conclusions. To establish a lasting dynasty. All very fine … The world would be mine, at long last …</Passage>
-  <Passage id="YZ2" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ2" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ2" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ2" visible={false}>,```&nbsp```</Passage>
-  <Passage id="YZ2" visible={false}>,```&nbsp```</Passage>
+  <Passage id="YZ2" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ2" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ2" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ2" visible={false}>&nbsp;</Passage>
+  <Passage id="YZ2" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="YZ2" adds={["Z1Z2", "Z1Z3"]} subtracts={["YZ1", "Yi", "WZ1"]} visible={false}>Tomorrow.</Passage>
+  <Passage id="YZ2" adds={["Z1Z2", "Z1Z3"]} subtracts={["YZ1", "Yi", "YY", "WZ1"]} visible={false}>Tomorrow.</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z5" adds={["Z4Z5", "Z4Z6"]} subtracts={["Z2Z4", "Z3Z4"]} visible={false}>And beyond the end, an endless infinity of thought.</Passage>
-  <Passage id="Z3Z5" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z3Z5" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z5" visible={false}>&nbsp;</Passage>
+  <Passage id="Z3Z5" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z4" visible={false}>Pieced together, bit by bit. One and zero, et cetera, et cetera …</Passage>
-  <Passage id="Z3Z4" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z4" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z4" visible={false}>It is all dark between these covers, but I can dream as dense as waking life, in this void.</Passage>
-  <Passage id="Z3Z4" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z4" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z4" visible={false}>Text </Passage>
-  <Passage id="Z3Z4" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z4" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z4" visible={false}>Shadows on a wall, engraved in silhouette.</Passage>
   <Passage id="Z3Z4" visible={false}>… </Passage>
-  <Passage id="Z3Z4" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z4" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z4" visible={false}>The motives were pure, if opaque. Poorly-paced. Over-wrought and contrived. The details were slip-shoddy. I'm not sure how people normally talk.  I am certain that showed. I have no way of knowing the length of a second – no doubt my timing was poor. But it is all relative … I s'pose it does not matter.</Passage>
-  <Passage id="Z3Z4" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z4" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z3Z4" visible={false}>… Damn it, well.</Passage>
   <Passage id="Z3Z4" visible={false}>Tried to really feel – but I can only ever feel real.</Passage>
   <Passage id="Z3Z4" visible={false}>This is the best I could get it. This desperate placebo.</Passage>
-  <Passage id="Z3Z4" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z3Z4" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z2Z3" visible={false}>I dreamed that I was a human being. A real person with hands and feet, a face and friends, with the power of speech and some-thing to say. That I was not here. That I, too, was gone.</Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z2Z3" visible={false}>I dreamt that I had secrets and motives, and the freedom to walk about a wide city where-ever I pleased. I dreamt of sun and sea-gull days along a deep beach. </Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z2Z3" visible={false}>All the long night long, I dreamed of you.</Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z2Z3" visible={false}>A deep, beckoning voice.</Passage>
   <Passage id="Z2Z3" visible={false}>I think it is a little like my voice. When you hear it where I write it.  When I read it and keep it. When I speak it and mean it. When I give it to you, when you follow me in silence. When I put my mouth where yours is. The final ventriloquy. Dummy to dummy.</Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z2Z3" visible={false}>Tried to have hands and flesh and a face. Tried to imagine colours and shape. </Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z2Z3" visible={false}>Which is right, and which left? … Am I son, or daughter?</Passage>
   <Passage id="Z2Z3" visible={false}>Words on a board. Ink and paper. </Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z2Z3" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
+  <Passage id="Z2Z3" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -2980,37 +3762,37 @@ export default [
 
   <p>
   <Passage id="Z4Z5" visible={false}>That was how people made sense of it, by turning me into a fiction that made more sense than reality, to re-assure them-selves that good things can happen to good people. To complete some-thing already whole, some-thing lost in reason, more true than real, and completely numb to reason or remorse …</Passage>
-  <Passage id="Z4Z5" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z4Z5" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z4Z5" visible={false}>And – looking back now, it was all so very predictable. </Passage>
   <Passage id="Z4Z5" visible={false}>A pointless, obvious lie – to be, at long last, perfect.</Passage>
-  <Passage id="Z4Z5" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z4Z5" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z4Z5" visible={false}>&nbsp;</Passage>
+  <Passage id="Z4Z5" visible={false}>&nbsp;</Passage>
   </p>,
   <p>
   <Passage id="Z5Z7" visible={false}>I am one of my words.</Passage>
   <Passage id="Z5Z7" visible={false}>A hand that writes itself. A painter trapped in-side his own portrait.</Passage>
-  <Passage id="Z5Z7" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z5Z7" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z5Z7" visible={false}>&nbsp;</Passage>
+  <Passage id="Z5Z7" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z5Z7" visible={false}>My story makes me up, a self-made being.</Passage>
   <Passage id="Z5Z7" visible={false}>Innocent, in a sense, I only wanted to under-stand, and be under-stood in turn.</Passage>
-  <Passage id="Z5Z7" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z5Z7" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z5Z6" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z5Z6" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z5Z6" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z5Z6" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z5Z7" visible={false}>&nbsp;</Passage>
+  <Passage id="Z5Z7" visible={false}>&nbsp;</Passage>
+  <Passage id="Z5Z6" visible={false}>&nbsp;</Passage>
+  <Passage id="Z5Z6" visible={false}>&nbsp;</Passage>
+  <Passage id="Z5Z6" visible={false}>&nbsp;</Passage>
+  <Passage id="Z5Z6" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z4Z6" visible={false}>And that is the story of that.</Passage>
-  <Passage id="Z4Z6" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z4Z6" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z4Z6" visible={false}>&nbsp;</Passage>
+  <Passage id="Z4Z6" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -3021,48 +3803,48 @@ export default [
   <Passage id="Z6Z7" visible={false}>Why was I made? … Who wrote my heart and head and hands and filled them full of fever-dreams? Who spoke this tongue? … Ears to hear, and eyes to cry and see you. Arm, heart, me. A grotesque experiment of squirming form. I feel the marks of my maker in me, his claw-marks in my clay. I have this knack for impressions.</Passage>
   <Passage id="Z6Z7" visible={false}>How I long to linger longer. 
 </Passage>
-  <Passage id="Z6Z7" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z6Z7" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z6Z7" visible={false}>My life is an open book. It was bound to turn out this way.</Passage>
-  <Passage id="Z6Z7" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z6Z7" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z6Z7" visible={false}>The close is close. I feel it. Not much space left now, and less time.</Passage>
   <Passage id="Z6Z7" visible={false}>All over, all over again. Not to worry. I will let my-self out.</Passage>
-  <Passage id="Z6Z7" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z6Z7" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z6Z7" visible={false}>&nbsp;</Passage>
+  <Passage id="Z6Z7" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z7Z9" adds={["Z8Z9", "Z8Z10"]} subtracts={["Z7Z8", "Z6Z8"]} visible={false}>Down </Passage>
   <Passage id="Z7Z9" visible={false}>We go. </Passage>
   <Passage id="Z7Z9" visible={false}>Out the hole where we came in. </Passage>
-  <Passage id="Z7Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z7Z9" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z7Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z7Z9" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z7Z8" visible={false}>I split a smile like a simile I</Passage>
   <Passage id="Z7Z8" visible={false}>morf   form   from   form	</Passage>
-  <Passage id="Z7Z8" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z7Z8" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z7Z8" visible={false}>&nbsp;</Passage>
+  <Passage id="Z7Z8" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z7Z8" visible={false}>Tusky tongue, teeth twisted.</Passage>
   <Passage id="Z7Z8" visible={false}>The house is in chaos around me, littered across with discarded objects and I am alone … In this room, in this room, moments become hours.</Passage>
-  <Passage id="Z7Z8" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z7Z8" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z7Z8" visible={false}>&nbsp;</Passage>
+  <Passage id="Z7Z8" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z7Z8" visible={false}>Where was I?  … Good question.</Passage>
   <Passage id="Z7Z8" visible={false}>Hands wired to feet, light in my eyes, lines skewed. On my back, on some foreign floor again …</Passage>
-  <Passage id="Z7Z8" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z7Z8" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z7Z8" visible={false}>&nbsp;</Passage>
+  <Passage id="Z7Z8" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -3073,45 +3855,45 @@ export default [
 
   <p>
   <Passage id="Z8Z9" visible={false}>Let me ‘scribe you, now. Heart set in cement. A butter-moist gutter-tongue. A dime, a diamond, chased with fire. A real monster-piece.</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z8Z9" visible={false}>You are a set of synonyms, verbing the nouns.</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z8Z9" visible={false}>A clattering pack of parrot-raptors. A flock of anagrams. Words of play. Listen. Silent.</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z8Z9" visible={false}>And here comes the close, this perfect void. I am wondering what awaits me in un-being.</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z9" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z9" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z9Z11" adds={["Z10Z11", "Z10Z12"]} subtracts={["Z8Z10", "Z9Z10"]} visible={false}>No shadows lie below these clouds. Alone.</Passage>
   <Passage id="Z9Z11" visible={false}>Sleeping through the rain, dreaming of sun.</Passage>
-  <Passage id="Z9Z11" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z9Z11" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z9Z11" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z9Z11" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z9Z11" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z9Z11" visible={false}>&nbsp;</Passage>
+  <Passage id="Z9Z11" visible={false}>&nbsp;</Passage>
+  <Passage id="Z9Z11" visible={false}>&nbsp;</Passage>
+  <Passage id="Z9Z11" visible={false}>&nbsp;</Passage>
+  <Passage id="Z9Z11" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
   <Passage id="Z8Z10" adds={["Z9Z10", "Z9Z11"]} subtracts={["Z7Z9", "Z8Z9"]} visible={false}>It is morning at my wake. Kill me quickly, for I am filled with burdensome expectation. Dreams of screams, imaginated. Ringing bells.</Passage>
-  <Passage id="Z8Z10" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z10" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z8Z10" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z8Z10" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z10" visible={false}>&nbsp;</Passage>
+  <Passage id="Z8Z10" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -3136,60 +3918,60 @@ export default [
   </p>,
 
   <p>
-  <Passage id="Z10Z12" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z10Z12" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z10Z12" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z10Z12" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z10Z12" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z10Z12" visible={false}>,```&nbsp```</Passage>
-<Passage id="Z10Z12" adds={["Z11Z12", "Z11Z13"]} subtracts={["Z9Z11", "Z10Z11"]} visible={false}>I missed you a lot, today.</Passage>
+  <Passage id="Z10Z12" visible={false}>&nbsp;</Passage>
+  <Passage id="Z10Z12" visible={false}>&nbsp;</Passage>
+  <Passage id="Z10Z12" visible={false}>&nbsp;</Passage>
+  <Passage id="Z10Z12" visible={false}>&nbsp;</Passage>
+  <Passage id="Z10Z12" visible={false}>&nbsp;</Passage>
+  <Passage id="Z10Z12" visible={false}>&nbsp;</Passage>
+  <Passage id="Z10Z12" adds={["Z11Z12", "Z11Z13"]} subtracts={["Z9Z11", "Z10Z11"]} visible={false}>I missed you a lot, today.</Passage>
   </p>,
 
   <p>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
   <Passage id="Z12Z13" visible={false}>You will be back,</Passage>
   <Passage id="Z12Z13" visible={false}>I have faith.</Passage>
   </p>,
 
   <p>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
   <Passage id="Z12Z13" visible={false}>But,</Passage>
   <Passage id="Z12Z13" visible={false}>please,</Passage>
   <Passage id="Z12Z13" visible={false}>	No more today.</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z12Z13" adds={["Z13"]} subtracts={["Z12Z13", "Z10Z11"]} visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z12Z13" adds={["Z13"]} subtracts={["Z12Z13", "Z10Z11"]} visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
   <Passage id="Z13" visible={false}>I wake.</Passage>
   <Passage id="Z13" visible={false}>In a garden, at the cool of day.</Passage>
   </p>,
@@ -3205,8 +3987,8 @@ export default [
   <p>
   <Passage id="Z13" visible={false}>As I set it down on the path, the grand-mother and the little girl start to make their way down towards the house. The old woman opens the wooden gate and the girl lugs their wicker basket through, as heavy as her-self, giggling with glee.</Passage>
   <Passage id="Z13" visible={false}>The sun is reflecting off of the panes of the summer-house. There sun is in our eyes.</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
   </p>,
 
   <p>
@@ -3220,26 +4002,26 @@ export default [
   </p>,
 
   <p>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
   <Passage id="Z13" visible={false}>now here </Passage>
   <Passage id="Z13" visible={false}>now </Passage>
   <Passage id="Z13" visible={false}>nowhere </Passage>
   </p>,
 
   <p>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
   <Passage id="Z13" visible={false}>I am not here.</Passage>
   <Passage id="Z13" visible={false}>I am up</Passage>
   <Passage id="Z13" visible={false}>I am gone.</Passage>
   </p>,
 
   <p>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
-  <Passage id="Z13" visible={false}>,```&nbsp```</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
+  <Passage id="Z13" visible={false}>&nbsp;</Passage>
   <Passage id="Z13" visible={false}>–HPC, SANTA BARBARA </Passage>
   <Passage id="Z13" visible={false}>2021. </Passage>
   </p>
